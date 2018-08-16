@@ -3,11 +3,11 @@ pcfNpmPipeline() {
     group: "com.cengage.rgu"
   ]
   npm = [
+    buildDir = "public"
     scripts: [
       build: "npm run patternlab build",
     ]
   ]
-  buildDir = "public"
   deployments = [
     dev: [[
       id: 'gale-styles',
