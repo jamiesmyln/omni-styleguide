@@ -37,6 +37,13 @@
 		"oAP": "\/build\/node_modules",
 		"oF": 0
 		},
+	"\/npm-debug.log": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/npm-debug.log",
+		"oF": 0
+		},
 	"\/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -5488,6 +5495,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/public\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/index.html",
+		"oF": 0
 		},
 	"\/public\/Jenkinsfile": {
 		"cB": 0,

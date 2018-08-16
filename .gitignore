@@ -1,2 +1,5 @@
 .DS_Store
 node_modules/
+public/
+config.codekit3
+npm-debug.log
