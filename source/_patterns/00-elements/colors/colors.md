@@ -1,4 +1,4 @@
 ---
 title: Color Guidelines
 ---
-Gale Colors and stuff
+Gale Colors and stuff - Update docs
