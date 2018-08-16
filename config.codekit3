@@ -5489,13 +5489,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/index.html",
-		"oF": 0
-		},
 	"\/public\/Jenkinsfile": {
 		"cB": 0,
 		"ft": 8192,
@@ -5860,16 +5853,6 @@
 		"oAP": "\/public\/Staticfile",
 		"oF": 0
 		},
-	"\/public\/styleguide\/bower_components\/jquery.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/public\/styleguide\/bower_components\/jquery.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/public\/styleguide\/data\/patternlab-data-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5896,16 +5879,6 @@
 		"oA": 0,
 		"oAP": "\/public\/styleguide\/html\/styleguide.html",
 		"oF": 0
-		},
-	"\/public\/styleguide\/js\/patternlab-pattern.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/public\/styleguide\/js\/patternlab-pattern.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/README.md": {
 		"cB": 0,
