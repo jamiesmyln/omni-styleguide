@@ -5496,39 +5496,11 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/index.html",
-		"oF": 0
-		},
 	"\/public\/Jenkinsfile": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/Jenkinsfile",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-01-icons\/00-elements-01-icons.rendered.html",
 		"oF": 0
 		},
 	"\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.markup-only.html": {
@@ -5538,39 +5510,11 @@
 		"oAP": "\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.markup-only.html",
 		"oF": 0
 		},
-	"\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.mustache",
-		"oF": 0
-		},
 	"\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.rendered.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.rendered.html",
 		"oF": 0
 		},
 	"\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.markup-only.html": {
@@ -5580,95 +5524,11 @@
 		"oAP": "\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.markup-only.html",
 		"oF": 0
 		},
-	"\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-01-usage\/00-elements-colors-01-usage.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors-02-accessibility\/00-elements-colors-02-accessibility.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements-colors\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements-colors\/index.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/00-elements\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/00-elements\/index.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-00-buttons\/01-components-00-buttons.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-01-cards\/01-components-01-cards.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-01-cards\/01-components-01-cards.markup-only.html",
-		"oF": 0
-		},
 	"\/public\/patterns\/01-components-01-cards\/01-components-01-cards.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/patterns\/01-components-01-cards\/01-components-01-cards.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-01-cards\/01-components-01-cards.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-01-cards\/01-components-01-cards.rendered.html",
 		"oF": 0
 		},
 	"\/public\/patterns\/01-components-02-Form-Controls\/01-components-02-Form-Controls.markup-only.html": {
@@ -5690,174 +5550,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/patterns\/01-components-02-Form-Controls\/01-components-02-Form-Controls.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-03-Headers-Footers\/01-components-03-Headers-Footers.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-04-interactive-panels\/01-components-04-interactive-panels.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-05-media\/01-components-05-media.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-05-media\/01-components-05-media.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-05-media\/01-components-05-media.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-05-media\/01-components-05-media.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-05-media\/01-components-05-media.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-05-media\/01-components-05-media.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-06-messaging\/01-components-06-messaging.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-07-Search-Results\/01-components-07-Search-Results.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/01-components-08-toolbars\/01-components-08-toolbars.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-00-principles\/02-documentation-00-principles.rendered.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.markup-only.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.markup-only.html",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.mustache": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.mustache",
-		"oF": 0
-		},
-	"\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.rendered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/patterns\/02-documentation-01-UX-resources\/02-documentation-01-UX-resources.rendered.html",
 		"oF": 0
 		},
 	"\/public\/Staticfile": {
