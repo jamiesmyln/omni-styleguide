@@ -54,6 +54,10 @@
   line-height: 1;
 }
 
+.pl-c-header {
+  font-size: 1em;
+}
+
 #atoms-logo-reversed .sg-pattern-example {
 	background: #444444;
 	display: inline-block;

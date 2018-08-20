@@ -4851,6 +4851,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/patternlab-node\/packages\/uikit-workshop\/src\/sass\/pattern-lab.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/patternlab-node\/packages\/uikit-workshop\/src\/sass\/pattern-lab-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/patternlab-node\/packages\/uikit-workshop\/src\/sass\/pattern-lab.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4859,8 +4869,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/patternlab-node\/packages\/uikit-workshop\/src\/sass\/pattern-lab.css",
-		"oF": 0,
+		"oAP": "\/patternlab-node\/packages\/uikit-workshop\/dist\/styleguide\/css\/pattern-lab.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -6501,6 +6511,27 @@
 		"oAP": "\/public\/patterns\/00-elements-02-typography\/00-elements-02-typography.rendered.html",
 		"oF": 0
 		},
+	"\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.markup-only.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.markup-only.html",
+		"oF": 0
+		},
+	"\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.mustache": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.mustache",
+		"oF": 0
+		},
+	"\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.rendered.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/patterns\/00-elements-colors-00-color-palette\/00-elements-colors-00-color-palette.rendered.html",
+		"oF": 0
+		},
 	"\/public\/patterns\/00-elements-colors-00-colors\/00-elements-colors-00-colors.markup-only.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6990,41 +7021,41 @@
 		},
 	"\/source\/_annotations\/annotations.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/_annotations\/annotations-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/source\/_data\/data.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/_data\/data-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/source\/_data\/listitems.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/_data\/listitems-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/source\/_meta\/_00-head.mustache": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/_meta\/_00-head.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_meta\/_01-foot.mustache": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/_meta\/_01-foot.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_meta\/README.md": {
 		"cB": 0,
@@ -7036,7 +7067,7 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "\/source\/_meta\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -7049,35 +7080,35 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/00-elements\/01-icons.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/00-elements\/02-typography.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/00-elements\/02-typography.mustache",
-		"oF": 0
+		"oF": 1
 		},
-	"\/source\/_patterns\/00-elements\/colors\/00-colors.mustache": {
+	"\/source\/_patterns\/00-elements\/colors\/00-color-palette.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/source\/_patterns\/00-elements\/colors\/00-colors.mustache",
-		"oF": 0
+		"oAP": "\/source\/_patterns\/00-elements\/colors\/00-color-palette.mustache",
+		"oF": 1
 		},
 	"\/source\/_patterns\/00-elements\/colors\/01-usage.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/00-elements\/colors\/01-usage.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/00-elements\/colors\/02-accessibility.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/00-elements\/colors\/02-accessibility.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/00-elements\/colors\/colors.html": {
 		"cB": 0,
@@ -7096,7 +7127,7 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/00-elements\/colors\/colors.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -7109,77 +7140,77 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/00-buttons.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/01-cards.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/01-cards.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/02-Form-Controls.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/02-Form-Controls.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/03-Headers-Footers.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/03-Headers-Footers.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/04-interactive-panels.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/04-interactive-panels.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/05-media.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/05-media.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/06-messaging.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/06-messaging.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/07-Search-Results.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/07-Search-Results.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/01-components\/08-toolbars.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/01-components\/08-toolbars.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/02-documentation\/00-principles.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/02-documentation\/00-principles.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/_patterns\/02-documentation\/01-UX-resources.mustache": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/_patterns\/02-documentation\/01-UX-resources.mustache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/css\/pattern-scaffolding.css": {
 		"aP": 1,
@@ -7188,7 +7219,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/source\/css\/pattern-scaffolding-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/source\/css\/scss\/abstracts\/_mixins.scss": {
@@ -7198,9 +7229,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/abstracts\/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7211,9 +7242,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/abstracts\/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7224,9 +7255,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_animation.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7237,9 +7268,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_body.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7250,9 +7281,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7263,9 +7294,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_global-classes.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7276,9 +7307,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_headings.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7289,9 +7320,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_links.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7302,9 +7333,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_lists.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7315,9 +7346,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7328,9 +7359,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_media.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7341,9 +7372,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_reset.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7354,9 +7385,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_tables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7367,9 +7398,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/base\/_text.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7380,9 +7411,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_blocks.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7393,9 +7424,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_box.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7406,9 +7437,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7419,9 +7450,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_carousels.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7432,9 +7463,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_feedback.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7445,9 +7476,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_fields.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7458,9 +7489,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_footer-nav.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7471,9 +7502,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_footer.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7484,9 +7515,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7497,9 +7528,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_header.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7510,9 +7541,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_icons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7523,9 +7554,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_lists.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7536,9 +7567,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_logo.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7549,9 +7580,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_messaging.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7562,9 +7593,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_nav.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7575,9 +7606,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_page-header.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7588,9 +7619,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_primary-nav.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7601,9 +7632,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_sections.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7614,9 +7645,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/components\/_text.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7627,9 +7658,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/css\/scss\/layout\/_layout.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7659,7 +7690,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/source\/css\/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -7668,14 +7699,14 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/favicon.ico",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/fonts\/icons.dev.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/fonts\/icons.dev.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -7685,14 +7716,14 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/fonts\/icons.eot",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/fonts\/icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/fonts\/icons.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -7702,21 +7733,21 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/fonts\/icons.ttf",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/fonts\/icons.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/source\/fonts\/icons.woff",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/images\/fpo_16x9.png": {
 		"ft": 32768,
 		"iS": 2902,
 		"oA": 0,
 		"oAP": "\/source\/images\/fpo_16x9.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -7727,7 +7758,7 @@
 		"iS": 2567,
 		"oA": 0,
 		"oAP": "\/source\/images\/fpo_4x3.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -7738,7 +7769,7 @@
 		"iS": 1893,
 		"oA": 0,
 		"oAP": "\/source\/images\/fpo_avatar.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -7749,7 +7780,7 @@
 		"iS": 6865,
 		"oA": 0,
 		"oAP": "\/source\/images\/fpo_hero.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -7760,7 +7791,7 @@
 		"iS": 6564,
 		"oA": 0,
 		"oAP": "\/source\/images\/fpo_square.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -7769,9 +7800,9 @@
 	"\/source\/images\/icon-arrowhead.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/images\/icon-arrowhead.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -7779,9 +7810,9 @@
 	"\/source\/images\/logo-reversed.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/images\/logo-reversed.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -7789,9 +7820,9 @@
 	"\/source\/images\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/images\/logo.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -7802,7 +7833,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar1.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7813,7 +7844,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7824,7 +7855,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar3.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7835,7 +7866,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar4.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7846,7 +7877,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar5.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7857,7 +7888,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/avatar6.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7868,7 +7899,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-hiker.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7879,7 +7910,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7890,7 +7921,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7901,7 +7932,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns3.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7912,7 +7943,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns4.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7923,7 +7954,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns5.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7934,7 +7965,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-mtns6.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7945,7 +7976,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-trees.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7956,7 +7987,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/blog-trees2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7967,7 +7998,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/hero-forest.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7978,7 +8009,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/hero-mountains.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -7989,7 +8020,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/hiking.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8000,7 +8031,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/landscape-16x9-mountains.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8008,9 +8039,9 @@
 	"\/source\/images\/sample\/logo-reversed.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/source\/images\/sample\/logo-reversed.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -8021,7 +8052,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/thumb-square-yosemite.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8032,7 +8063,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/tout-leaves.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8043,7 +8074,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/tout-mountains.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8054,7 +8085,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/tout-winter-hiker.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8065,7 +8096,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/sample\/waterfall.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -8076,7 +8107,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/fitvids-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8086,7 +8117,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/init-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8096,7 +8127,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/modernizr-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8106,7 +8137,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/nav-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8116,7 +8147,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/overlay-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8126,7 +8157,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/source\/js\/progress-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -8138,9 +8169,9 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/less\/accessibility.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -8155,9 +8186,9 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/less\/buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -8174,7 +8205,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/source\/css\/style.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"rU": 0,
 		"sI": 0,
@@ -8189,9 +8220,9 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/less\/styleguide.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -8206,9 +8237,9 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/source\/less\/variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
