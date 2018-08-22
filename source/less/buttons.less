@@ -12,12 +12,76 @@
 }
 .button {
   border-radius: 2px;
-  color: @color-white;
+  font-weight: 500;
   padding: 4px 16px;
+  cursor: pointer;
   -webkit-box-shadow: 0 2px 6px 0 @color-blue-dark-80;
   box-shadow: 0 2px 6px 0 @color-blue-dark-80;
+  text-transform: uppercase;
+  transition: all .3s ease;
   &_primary {
+    color: @color-white;
     background-color: @color-blue-primary;
-    border: 1px @color-blue-primary solid;
+    border: 2px @color-blue-primary solid;
+
+    &:hover, &.hover {
+      background-color: darken(@color-blue-primary, 10%);
+      border: 2px darken(@color-blue-primary, 10%) solid;
+      transition: all .3s ease;
+    }
+    &:active, &:visited, &:focus, &.pressed {
+      background-color: lighten(@color-blue-primary, 10%);
+      border: 2px lighten(@color-blue-primary, 10%) solid;
+      transition: all .3s ease;
+    }
+  }
+  &_inverted {
+    color: @color-blue-primary;
+    border: 2px solid @color-blue-primary;
+    background-color: @color-white;
+
+    &:hover, &.hover {
+      background-color: darken(@color-white, 10%);
+      border: 2px darken(@color-blue-primary, 10%) solid;
+      color: darken(@color-blue-primary, 10%);
+      transition: all .3s ease;
+    }
+    &:active, &:visited, &:focus, &.pressed {
+      color: lighten(@color-blue-primary, 10%);
+      border: 2px lighten(@color-blue-primary, 10%) solid;
+      transition: all .3s ease;
+    }
+  }
+  &_accent {
+    color: @color-white;
+    background-color: @color-orange;
+    border: 2px @color-orange solid;
+
+    &:hover, &.hover {
+      background-color: darken(@color-orange, 10%);
+      border: 2px darken(@color-orange, 10%) solid;
+      transition: all .3s ease;
+    }
+    &:active, &:visited, &:focus, &.pressed {
+      background-color: lighten(@color-orange, 10%);
+      border: 2px lighten(@color-orange, 10%) solid;
+      transition: all .3s ease;
+    }
+  }
+  &_primary-icon {
+    color: @color-white;
+    background-color: @color-blue-primary;
+    border: 2px @color-blue-primary solid;
+
+    &:hover, &.hover {
+      background-color: darken(@color-blue-primary, 10%);
+      border: 2px darken(@color-blue-primary, 10%) solid;
+      transition: all .3s ease;
+    }
+    &:active, &:visited, &:focus, &.pressed {
+      background-color: lighten(@color-blue-primary, 10%);
+      border: 2px lighten(@color-blue-primary, 10%) solid;
+      transition: all .3s ease;
+    }
   }
 }
