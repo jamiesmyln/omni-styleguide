@@ -1,0 +1,48 @@
+.card {
+  background-color: @color-white;
+  .box-shadow;
+  border-radius: 5px;
+
+  &_vertical-image {
+    max-width: 350px;
+    .image-container {
+      background: url('../images/kitty.jpg') no-repeat;
+      background-size: cover;
+      min-height: 200px;
+      border-radius: 5px 5px 0 0;
+    }
+  }
+  &_horizontal-image {
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: 200px auto;
+
+    .image-container {
+      background: url('../images/deer.jpg') no-repeat;
+      background-size: cover;
+      display: inline-flex;
+      border-radius: 5px 0 0 5px;
+    }
+  }
+  &_text {
+    max-width: 450px;
+  }
+  .card-content {
+    padding: 1em;
+  }
+  .category-header {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8em;
+    margin-bottom: 10px;
+  }
+  .article-title {
+    color: @color-blue-primary;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  .snippet-text {
+    font-size: .7em;
+    margin-top: 5px;
+  }
+}
