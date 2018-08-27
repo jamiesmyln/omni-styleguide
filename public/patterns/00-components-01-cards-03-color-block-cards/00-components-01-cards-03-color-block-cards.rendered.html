@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="pl">
+  <head>
+    <title>Gale Styles</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1535391043486" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1535391043486" media="all" />
+    <link rel="stylesheet" href="../../css/all.min.css" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="body">
+<h2>Color Block Cards</h2>
+<p>Title BG Color: Any secondary color (green, teal, purple, or orange)<br>
+Subtitle BG Color: Secondary color’s transparency</p>
+<div class="card card_color-block">
+  <div class="card-header card-header--purple">
+    <div class="title">Color Block Card</div>
+  </div>
+  <div class="card-subheader card-subheader--purple">
+    <div class="subtitle">Subtitle</div>
+  </div>
+  <div class="card-content">
+    <input type="radio" id="pub-1" name="sample" checked />
+    <label for="pub-1">Publication 1</label>
+    <br>
+    <input type="radio" id="pub-2" name="sample" />
+    <label for="pub-2">Publication 2</label>
+    <br>
+    <input type="radio" id="pub-3" name="sample" />
+    <label for="pub-3">Publication 3</label>
+  </div>
+</div>
+
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"","patternBreadcrumb":{"patternType":"components","patternSubtype":"cards"},"patternExtension":"mustache","patternName":"Color Block Cards","patternPartial":"components-color-block-cards","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+  
+  var scriptLoader = {
+    
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+    
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1535391043486">
+  (function() {
+    if (self != top) {
+      var cb = '1535391043486';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1535391043486">
+  (function() {
+    if (self != top) {
+      var cb = '1535391043486';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+
+  <script type="text/javascript" src="/js/all.js"></script>
+  <script type="text/javascript" src="/js/nav.js"></script>
+  <script type="text/javascript" src="/js/progress.js"></script>
+  <script type="text/javascript" src="/js/overlay.js"></script>
+  </body>
+</html>

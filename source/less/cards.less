@@ -27,6 +27,54 @@
   &_text {
     max-width: 450px;
   }
+  &_color-block {
+    .card-header {
+      border-radius: 5px 5px 0 0;
+      padding: 10px 20px;
+      &--purple {
+        background-color: @color-purple;
+        color: @color-white;
+      }
+    }
+    .card-subheader {
+      padding: 10px 20px;
+      font-size: .8em;
+      &--purple {
+        background-color: @color-purple-30;
+      }
+    }
+  }
+  &_tile {
+    background: url('../images/cookies.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 150px;
+    display: flex;
+
+    &-footer {
+      flex-flow: row;
+      align-self: flex-end;
+      width: 100%;
+      border-radius: 0 0 5px 5px;
+      padding: 5px 10px;
+
+      &--blue {
+        color: @color-white;
+        background-color: @color-blue-primary;
+      }
+      .title {
+        text-transform: uppercase;
+        font-size: .8em;
+        display: flex;
+      }
+      .date {
+        font-size: .7em;
+        font-weight: 200;
+        display: flex;
+      }
+    }
+  }
   .card-content {
     padding: 1em;
   }
