@@ -91,6 +91,36 @@ h1, h2, h3, h4, h5 {
   color: @color-blue-dark;
 }
 
+.code-container {
+  pre {
+    font-size: 12px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow: auto;
+  }
+}
+.tabs {
+  list-style: none;
+  background-color: @color-gray-light;
+  padding: 0;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 50px;
+
+  li {
+    display: flex;
+  }
+
+  .tabmenu {
+    padding: 10px;
+    text-decoration: none;
+    color: @color-gray-dark;
+
+    &.active {
+      background-color: @color-gray-medium;
+    }
+  }
+}
 .sg-title {
   text-transform: uppercase;
   font-size: .85em;

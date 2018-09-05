@@ -1,8 +1,70 @@
 <h2>Tiles</h2>
 
-<div class=" card card_tile">
+<div class="card card_tile">
   <div class="card_tile-footer card_tile-footer--blue">
     <span class="title">Title</span>
     <span class="date">Date</span>
+  </div>
+</div>
+{{> components-tabs}}
+<div id="content_1" class="tabcontent">
+  <div class="code-container">
+    <pre>
+      <code class="language-markup">
+        <script type="text/plain">
+          <div class="card card_tile">
+            <div class="card_tile-footer card_tile-footer--blue">
+              <span class="title">Title</span>
+              <span class="date">Date</span>
+            </div>
+          </div>
+        </script>
+      </code>
+    </pre>
+  </div>
+</div>
+<div id="content_2" class="tabcontent" style="display:none;">
+  <div class="code-container">
+    <pre>
+      <code class="language-less">
+      .card {
+        background-color: @color-white;
+        .box-shadow;
+        border-radius: 5px;
+
+        &_tile {
+          background: url('../images/cookies.jpg') no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 200px;
+          width: 150px;
+          display: flex;
+
+          &-footer {
+            flex-flow: row;
+            align-self: flex-end;
+            width: 100%;
+            border-radius: 0 0 5px 5px;
+            padding: 5px 10px;
+
+            &--blue {
+              color: @color-white;
+              background-color: @color-blue-dark;
+            }
+            .title {
+              text-transform: uppercase;
+              font-size: .8em;
+              display: flex;
+            }
+            .date {
+              font-size: .7em;
+              font-weight: 200;
+              display: flex;
+            }
+          }
+        }
+      }
+      </code>
+    </pre>
   </div>
 </div>

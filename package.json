@@ -20,6 +20,7 @@
     "@pattern-lab/core": "^3.0.0-alpha.16",
     "@pattern-lab/engine-mustache": "^2.0.0-alpha.8",
     "@pattern-lab/starterkit-mustache-demo": "^5.0.0",
-    "@pattern-lab/uikit-workshop": "^1.0.0-alpha.7"
+    "@pattern-lab/uikit-workshop": "^1.0.0-alpha.7",
+    "prismjs": "^1.15.0"
   }
 }

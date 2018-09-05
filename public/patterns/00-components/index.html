@@ -4,12 +4,13 @@
     <title>Gale Styles</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1535463441254" media="all" />
-    <link rel="stylesheet" href="../../css/style.css?1535463441254" media="all" />
-    <link rel="stylesheet" href="../../css/all.min.css" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536176723803" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1536176723803" media="all" />
+    <link rel="stylesheet" href="../../css/all.min.css?1536176723803" media="all" />
+    <link rel="stylesheet" href="../../css/prism.css?1536176723803" media="all" />
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
-    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1535463441254" media="all">
+    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1536176723803" media="all">
     <!-- End Pattern Lab -->
 
   </head>
@@ -356,10 +357,57 @@
   </div>
 </div>
 
+<ul class="tabs">
+	<li><a href="javascript:sgSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active">HTML</a></li>
+	<li><a href="javascript:sgSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">LESS</a></li>
+</ul>
+
+<div id="content_1" class="tabcontent">
+  <div class="code-container">
+    <pre>
+      <code class="language-markup">
+        <script type="text/plain">
+          <div class="card card_vertical-image">
+            <div class="image-container"></div>
+            <div class="card-content">
+              <div class="category-header">Category Header</div>
+              <a href="#" class="article-title">Article Title</a>
+              <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+            </div>
+          </div>
+        </script>
+      </code>
+    </pre>
+  </div>
+</div>
+<div id="content_2" class="tabcontent" style="display:none;">
+  <div class="code-container">
+    <pre>
+      <code class="language-less">
+        .card {
+          background-color: @color-white;
+          .box-shadow;
+          border-radius: 5px;
+
+          &_vertical-image {
+            max-width: 350px;
+            .image-container {
+              background: url('../images/kitty.jpg') no-repeat;
+              background-size: cover;
+              min-height: 200px;
+              border-radius: 5px 5px 0 0;
+            }
+          }
+        }
+      </code>
+    </pre>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-vertical-image-cards" class="pl-js-pattern-data">
-	
+	{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"components-tabs","lineagePath":"../../patterns/00-components-01-cards-_tabs/00-components-01-cards-_tabs.rendered.html"}],"lineage":[{"lineagePattern":"components-tabs","lineagePath":"../../patterns/00-components-01-cards-_tabs/00-components-01-cards-_tabs.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"components","patternSubtype":"cards"},"patternExtension":"mustache","patternName":"Vertical Image Cards","patternPartial":"components-vertical-image-cards","patternState":"","patternEngineName":"mustache","extraOutput":{}}
 	</script>
 
 </div><!--end pl-c-pattern--><div id="components-horizontal-image-cards" class="pl-c-pattern">
@@ -521,10 +569,76 @@ Subtitle BG Color: Secondary color’s transparency</p>
 	<div class="pl-js-pattern-example">
 	<h2>Tiles</h2>
 
-<div class=" card card_tile">
+<div class="card card_tile">
   <div class="card_tile-footer card_tile-footer--blue">
     <span class="title">Title</span>
     <span class="date">Date</span>
+  </div>
+</div>
+<ul class="tabs">
+	<li><a href="javascript:sgSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active">HTML</a></li>
+	<li><a href="javascript:sgSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">LESS</a></li>
+</ul>
+
+<div id="content_1" class="tabcontent">
+  <div class="code-container">
+    <pre>
+      <code class="language-markup">
+        <script type="text/plain">
+          <div class="card card_tile">
+            <div class="card_tile-footer card_tile-footer--blue">
+              <span class="title">Title</span>
+              <span class="date">Date</span>
+            </div>
+          </div>
+        </script>
+      </code>
+    </pre>
+  </div>
+</div>
+<div id="content_2" class="tabcontent" style="display:none;">
+  <div class="code-container">
+    <pre>
+      <code class="language-less">
+      .card {
+        background-color: @color-white;
+        .box-shadow;
+        border-radius: 5px;
+
+        &_tile {
+          background: url('../images/cookies.jpg') no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 200px;
+          width: 150px;
+          display: flex;
+
+          &-footer {
+            flex-flow: row;
+            align-self: flex-end;
+            width: 100%;
+            border-radius: 0 0 5px 5px;
+            padding: 5px 10px;
+
+            &--blue {
+              color: @color-white;
+              background-color: @color-blue-dark;
+            }
+            .title {
+              text-transform: uppercase;
+              font-size: .8em;
+              display: flex;
+            }
+            .date {
+              font-size: .7em;
+              font-weight: 200;
+              display: flex;
+            }
+          }
+        }
+      }
+      </code>
+    </pre>
   </div>
 </div>
 
@@ -1392,20 +1506,20 @@ Subtitle BG Color: Secondary color’s transparency</p>
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1535463441254">
+<script id="pl-js-polyfill-insert-1536176723803">
   (function() {
     if (self != top) {
-      var cb = '1535463441254';
+      var cb = '1536176723803';
       var js = [];
       scriptLoader.run(js,cb,'pl-js-polyfill-insert');
     }
   })();
 </script>
 
-<script id="pl-js-insert-1535463441254">
+<script id="pl-js-insert-1536176723803">
   (function() {
     if (self != top) {
-      var cb = '1535463441254';
+      var cb = '1536176723803';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
@@ -1416,5 +1530,7 @@ Subtitle BG Color: Secondary color’s transparency</p>
   <script type="text/javascript" src="/js/nav.js"></script>
   <script type="text/javascript" src="/js/progress.js"></script>
   <script type="text/javascript" src="/js/overlay.js"></script>
+  <script type="text/javascript" src="/js/prism.js"></script>
+  <script type="text/javascript" src="/js/tabs.js"></script>
   </body>
 </html>
