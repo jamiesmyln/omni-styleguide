@@ -4,10 +4,14 @@
     <title>Gale Styles</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/style.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/all.min.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/prism.css?1536175489426" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536256547465" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1536256547465" media="all" />
+    <link rel="stylesheet" href="../../css/all.min.css?1536256547465" media="all" />
+    <link rel="stylesheet" href="../../css/prism.css?1536256547465" media="all" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     
@@ -22,6 +26,78 @@
     <div class="category-header">Category Header</div>
     <a href="#" class="article-title">Article Title</a>
     <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Text Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_text">
+              <div class="card-content">
+                <div class="category-header">Category Header</div>
+                <a href="#" class="article-title">Article Title</a>
+                <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_text {
+              max-width: 450px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
   </div>
 </div>
 
@@ -63,20 +139,20 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1536175489426">
+<script id="pl-js-polyfill-insert-1536256547465">
   (function() {
     if (self != top) {
-      var cb = '1536175489426';
+      var cb = '1536256547465';
       var js = [];
       scriptLoader.run(js,cb,'pl-js-polyfill-insert');
     }
   })();
 </script>
 
-<script id="pl-js-insert-1536175489426">
+<script id="pl-js-insert-1536256547465">
   (function() {
     if (self != top) {
-      var cb = '1536175489426';
+      var cb = '1536256547465';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }

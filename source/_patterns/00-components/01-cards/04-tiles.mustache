@@ -6,65 +6,102 @@
     <span class="date">Date</span>
   </div>
 </div>
-{{> components-tabs}}
-<div id="content_1" class="tabcontent">
-  <div class="code-container">
-    <pre>
-      <code class="language-markup">
-        <script type="text/plain">
-          <div class="card card_tile">
-            <div class="card_tile-footer card_tile-footer--blue">
-              <span class="title">Title</span>
-              <span class="date">Date</span>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Tile LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_tile">
+              <div class="card_tile-footer card_tile-footer--blue">
+                <span class="title">Title</span>
+                <span class="date">Date</span>
+              </div>
             </div>
-          </div>
-        </script>
-      </code>
-    </pre>
+          </script>
+        </code>
+      </pre>
+    </div>
   </div>
-</div>
-<div id="content_2" class="tabcontent" style="display:none;">
-  <div class="code-container">
-    <pre>
-      <code class="language-less">
-      .card {
-        background-color: @color-white;
-        .box-shadow;
-        border-radius: 5px;
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
 
-        &_tile {
-          background: url('../images/cookies.jpg') no-repeat;
-          background-size: cover;
-          background-position: center;
-          height: 200px;
-          width: 150px;
-          display: flex;
-
-          &-footer {
-            flex-flow: row;
-            align-self: flex-end;
-            width: 100%;
-            border-radius: 0 0 5px 5px;
-            padding: 5px 10px;
-
-            &--blue {
-              color: @color-white;
-              background-color: @color-blue-dark;
-            }
-            .title {
-              text-transform: uppercase;
-              font-size: .8em;
+            &_tile {
+              background: url('../images/cookies.jpg') no-repeat;
+              background-size: cover;
+              background-position: center;
+              height: 200px;
+              width: 150px;
               display: flex;
-            }
-            .date {
-              font-size: .7em;
-              font-weight: 200;
-              display: flex;
+
+              &-footer {
+                flex-flow: row;
+                align-self: flex-end;
+                width: 100%;
+                border-radius: 0 0 5px 5px;
+                padding: 5px 10px;
+
+                &--blue {
+                  color: @color-white;
+                  background-color: @color-blue-dark;
+                }
+                .title {
+                  text-transform: uppercase;
+                  font-size: .8em;
+                  display: flex;
+                }
+                .date {
+                  font-size: .7em;
+                  font-weight: 200;
+                  display: flex;
+                }
+              }
             }
           }
-        }
-      }
-      </code>
-    </pre>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
   </div>
 </div>

@@ -4,10 +4,14 @@
     <title>Gale Styles</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/style.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/all.min.css?1536175489426" media="all" />
-    <link rel="stylesheet" href="../../css/prism.css?1536175489426" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536259768039" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1536259768039" media="all" />
+    <link rel="stylesheet" href="../../css/all.min.css?1536259768039" media="all" />
+    <link rel="stylesheet" href="../../css/prism.css?1536259768039" media="all" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     
@@ -34,6 +38,70 @@
     <button type="submit" href="#" class="button button_primary pressed">Button</button>
     <div class="button-label">State: Pressed</div>
   </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Primary Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_primary">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+
+            &_primary {
+              color: @color-white;
+              background-color: @color-blue-primary;
+              border: 2px @color-blue-primary solid;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-blue-primary, 10%);
+                border: 2px darken(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                background-color: lighten(@color-blue-primary, 10%);
+                border: 2px lighten(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
 </div>
 
   <!--DO NOT REMOVE-->
@@ -74,20 +142,20 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1536175489426">
+<script id="pl-js-polyfill-insert-1536259768039">
   (function() {
     if (self != top) {
-      var cb = '1536175489426';
+      var cb = '1536259768039';
       var js = [];
       scriptLoader.run(js,cb,'pl-js-polyfill-insert');
     }
   })();
 </script>
 
-<script id="pl-js-insert-1536175489426">
+<script id="pl-js-insert-1536259768039">
   (function() {
     if (self != top) {
-      var cb = '1536175489426';
+      var cb = '1536259768039';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }

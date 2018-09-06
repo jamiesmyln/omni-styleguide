@@ -1,9 +1,12 @@
 body {
   font-family: "Open Sans", "Arial", sans-serif;
-  margin: 1em;
+  margin: 1em 3em;
 }
 header a {
   font-size: 12px !important;
+}
+.pl-c-pattern__header {
+  display: none !important;
 }
 // Colors
 .color_blue-primary {
@@ -90,7 +93,9 @@ header a {
 h1, h2, h3, h4, h5 {
   color: @color-blue-dark;
 }
-
+p {
+  max-width: 800px;
+}
 .code-container {
   pre {
     font-size: 12px;
@@ -98,6 +103,13 @@ h1, h2, h3, h4, h5 {
     max-height: 300px;
     overflow: auto;
   }
+}
+.tab-content {
+  display: none;
+}
+
+.tab-content.current {
+  display: inherit;
 }
 .tabs {
   list-style: none;
@@ -111,12 +123,13 @@ h1, h2, h3, h4, h5 {
     display: flex;
   }
 
-  .tabmenu {
+  .tab-link {
     padding: 10px;
     text-decoration: none;
     color: @color-gray-dark;
+    cursor: pointer;
 
-    &.active {
+    &.current {
       background-color: @color-gray-medium;
     }
   }

@@ -1,15 +1,16 @@
-function sgSwitchTab(sg_tab_id, sg_tab_content) {
-	var x = document.getElementsByClassName("tabcontent");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = 'none';
-	}
-	document.getElementById(sg_tab_content).style.display = 'block';
+$(document).ready(function() {
+  $(".tabs li").each(function(i, v) {
+    $(this).attr('data-tab', "tab-" + i)
+    $('.tab-content').eq(i).attr('id', "tab-" + i)
+  })
 
-	var x = document.getElementsByClassName("tabmenu");
-	var i;
-	for (i = 0; i < x.length; i++) {
-		x[i].className = 'tabmenu';
-	}
-	document.getElementById(sg_tab_id).className = 'tabmenu active';
-}
+
+
+  $('ul.tabs li').click(function() {
+    var tab_id = $(this).attr('data-tab');
+    $('ul.tabs li').removeClass('current');
+    $('.tab-content').removeClass('current');
+    $(this).addClass('current');
+    $("#" + tab_id).addClass('current');
+  })
+})
