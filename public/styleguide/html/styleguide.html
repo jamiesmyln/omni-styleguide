@@ -4,12 +4,17 @@
     <title>Gale Styles</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536261953594" media="all" />
-    <link rel="stylesheet" href="../../css/style.css?1536261953594" media="all" />
-    <link rel="stylesheet" href="../../css/all.min.css" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1536324868765" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1536324868765" media="all" />
+    <link rel="stylesheet" href="../../css/all.min.css?1536324868765" media="all" />
+    <link rel="stylesheet" href="../../css/prism.css?1536324868765" media="all" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
-    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1536261953594" media="all">
+    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1536324868765" media="all">
     <!-- End Pattern Lab -->
 
   </head>
@@ -55,7 +60,91 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Buttons</h2>
+<p>Buttons are used for actions a user can take on a page. Their visual design is intended to make them stand out against content to make it more apparent what actions are available to a user.</p>
+<p>We do not disable buttons. Disabled buttons present accessibility issues and can confuse users as to how to enable them. So instead, we allow users to press any button and show a message if something must be done before that action can be taken.</p>
+
+<h3>Primary Buttons</h3>
+<p>Default buttons are to be used in most situations that require a user to take an action.</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary">Button</button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary hover">Button</button>
+    <div class="button-label">State: Hover</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary pressed">Button</button>
+    <div class="button-label">State: Pressed</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Primary Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_primary">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+
+            &_primary {
+              color: @color-white;
+              background-color: @color-blue-primary;
+              border: 2px @color-blue-primary solid;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-blue-primary, 10%);
+                border: 2px darken(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                background-color: lighten(@color-blue-primary, 10%);
+                border: 2px lighten(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-primary-buttons" class="pl-js-pattern-data">
@@ -86,7 +175,87 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h3>Inverted Buttons</h3>
+<p>To be used for secondary actions or demphasizing an option (ex: a ‘Go Back’ button next to a default button for ‘Continue’).</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_inverted">Button</button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_inverted hover">Button</button>
+    <div class="button-label">State: Hover</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_inverted pressed">Button</button>
+    <div class="button-label">State: Pressed</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Inverted Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_inverted">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_inverted {
+              color: @color-blue-primary;
+              border: 2px solid @color-blue-primary;
+              background-color: @color-white;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-white, 10%);
+                border: 2px darken(@color-blue-primary, 10%) solid;
+                color: darken(@color-blue-primary, 10%);
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                color: lighten(@color-blue-primary, 10%);
+                border: 2px lighten(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-inverted-buttons" class="pl-js-pattern-data">
@@ -117,7 +286,86 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h3>Accent Buttons</h3>
+<p>Accent buttons are to be used where there are multiple buttons on the screen and we want to call attention to the most important action on the screen. Only one accent button should be visible on the screen at a time.</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_accent">Button</button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_accent hover">Button</button>
+    <div class="button-label">State: Hover</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_accent pressed">Button</button>
+    <div class="button-label">State: Pressed</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Accent Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_accent">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_accent {
+              color: @color-white;
+              background-color: @color-orange;
+              border: 2px @color-orange solid;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-orange, 10%);
+                border: 2px darken(@color-orange, 10%) solid;
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                background-color: lighten(@color-orange, 10%);
+                border: 2px lighten(@color-orange, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-accent-buttons" class="pl-js-pattern-data">
@@ -148,7 +396,86 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h3>Text + Icon Buttons</h3>
+<p>Text+Icon buttons are to be used when tied to an action that both has an associated icon and the interface uses only the icon to refer to this action elsewhere in the design.</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary-icon"><i class="fal fa-frog"></i> Button</button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary-icon hover"><i class="fal fa-frog"></i> Button</button>
+    <div class="button-label">State: Hover</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_primary-icon pressed"><i class="fal fa-frog"></i> Button</button>
+    <div class="button-label">State: Pressed</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Text Icon Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_primary-icon"><i class="fal fa-frog"></i> Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_primary-icon {
+              color: @color-white;
+              background-color: @color-blue-primary;
+              border: 2px @color-blue-primary solid;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-blue-primary, 10%);
+                border: 2px darken(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                background-color: lighten(@color-blue-primary, 10%);
+                border: 2px lighten(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-textIcon-buttons" class="pl-js-pattern-data">
@@ -179,7 +506,68 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h3>Icon Buttons</h3>
+<p>Icon buttons are to be used only when the action and icon are common enough interactions that no text is necessary (ex: ‘Previous’ and ‘Next’ with the chevron icon). Even then, text may still be associated with the button.</p>
+<p>Text+Icon buttons are to be used when tied to an action that both has an associated icon and the interface uses only the icon to refer to this action elsewhere in the design.</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_circle-icon"><i class="fal fa-chevron-left"></i></button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_circle-icon hover"><i class="fal fa-chevron-left"></i></button>
+    <div class="button-label">State: Hover</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Icon Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_circle-icon"><i class="fal fa-chevron-left"></i></button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button_circle-icon {
+            cursor: pointer;
+            .box-shadow;
+            text-transform: uppercase;
+            transition: all .3s ease;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            font-size: 1.5em;
+            padding: 0;
+            border: 2px solid @color-white;
+
+            svg {
+              margin-left: -3px;
+            }
+
+            &:hover {
+              background-color: darken(@color-white, 10%);
+              border: 2px darken(@color-white, 10%) solid;
+              transition: all .3s ease;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-icon-buttons" class="pl-js-pattern-data">
@@ -210,7 +598,76 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h3>Link Buttons</h3>
+<p>Text Only Buttons function similarly to links, but do not have a visited state. Text Only Buttons should always be placed next to a standard button and are used to deemphasize an option even more than the inverted button, such as ‘Cancel’ next to an ‘Apply’ button.</p>
+<div class="button-row">
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_link">Button</button>
+    <div class="button-label">State: Default</div>
+  </div>
+  <div class="button-grid">
+    <button type="submit" href="#" class="button button_link hover">Button</button>
+    <div class="button-label">State: Hover</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Link Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_link">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_link {
+              color: @color-blue-primary;
+              background-color: @color-white;
+              border: 2px @color-white solid;
+
+              &:hover {
+                color: darken(@color-blue-primary, 10%);
+                text-decoration: underline;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-link-buttons" class="pl-js-pattern-data">
@@ -252,7 +709,96 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Vertical Image Card</h2>
+<p>Cards are a way to visually separate content, must always be on the Light Gray background @color-gray-light, and must always be accompandied by other cards (never use a single card alone).</p>
+<div class="card card_vertical-image">
+  <div class="image-container"></div>
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Vert Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_vertical-image">
+              <div class="image-container"></div>
+              <div class="card-content">
+                <div class="category-header">Category Header</div>
+                <a href="#" class="article-title">Article Title</a>
+                <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_vertical-image {
+              max-width: 350px;
+              .image-container {
+                background: url('../images/kitty.jpg') no-repeat;
+                background-size: cover;
+                min-height: 200px;
+                border-radius: 5px 5px 0 0;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-vertical-image-cards" class="pl-js-pattern-data">
@@ -283,7 +829,99 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Horizontal Image Card</h2>
+
+<div class="card card_horizontal-image">
+  <div class="image-container"></div>
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Horizontal Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_horizontal-image">
+              <div class="image-container"></div>
+              <div class="card-content">
+                <div class="category-header">Category Header</div>
+                <a href="#" class="article-title">Article Title</a>
+                <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_horizontal-image {
+              max-width: 450px;
+              display: grid;
+              grid-template-columns: 200px auto;
+
+              .image-container {
+                background: url('../images/deer.jpg') no-repeat;
+                background-size: cover;
+                display: inline-flex;
+                border-radius: 5px 0 0 5px;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-horizontal-image-cards" class="pl-js-pattern-data">
@@ -314,7 +952,88 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Text Cards</h2>
+
+<div class="card card_text">
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Text Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_text">
+              <div class="card-content">
+                <div class="category-header">Category Header</div>
+                <a href="#" class="article-title">Article Title</a>
+                <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_text {
+              max-width: 450px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-text-cards" class="pl-js-pattern-data">
@@ -345,7 +1064,118 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Color Block Cards</h2>
+<p>Title BG Color: Any secondary color (green, teal, purple, or orange)<br>
+Subtitle BG Color: Secondary color’s transparency</p>
+<div class="card card_color-block">
+  <div class="card-header card-header--purple">
+    <div class="title">Color Block Card</div>
+  </div>
+  <div class="card-subheader card-subheader--purple">
+    <div class="subtitle">Subtitle</div>
+  </div>
+  <div class="card-content">
+    <input type="radio" id="pub-1" name="sample" checked />
+    <label for="pub-1">Publication 1</label>
+    <br>
+    <input type="radio" id="pub-2" name="sample" />
+    <label for="pub-2">Publication 2</label>
+    <br>
+    <input type="radio" id="pub-3" name="sample" />
+    <label for="pub-3">Publication 3</label>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Color Block Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_color-block">
+              <div class="card-header card-header--purple">
+                <div class="title">Color Block Card</div>
+              </div>
+              <div class="card-subheader card-subheader--purple">
+                <div class="subtitle">Subtitle</div>
+              </div>
+              <div class="card-content">
+                ...
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_color-block {
+              .card-header {
+                border-radius: 5px 5px 0 0;
+                padding: 10px 20px;
+                &--purple {
+                  background-color: @color-purple;
+                  color: @color-white;
+                }
+              }
+              .card-subheader {
+                padding: 10px 20px;
+                font-size: .8em;
+                &--purple {
+                  background-color: @color-purple-30;
+                }
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-color-block-cards" class="pl-js-pattern-data">
@@ -376,7 +1206,114 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Tiles</h2>
+
+<div class="card card_tile">
+  <div class="card_tile-footer card_tile-footer--blue">
+    <span class="title">Title</span>
+    <span class="date">Date</span>
+  </div>
+</div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Tile LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_tile">
+              <div class="card_tile-footer card_tile-footer--blue">
+                <span class="title">Title</span>
+                <span class="date">Date</span>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_tile {
+              background: url('../images/cookies.jpg') no-repeat;
+              background-size: cover;
+              background-position: center;
+              height: 200px;
+              width: 150px;
+              display: flex;
+
+              &-footer {
+                flex-flow: row;
+                align-self: flex-end;
+                width: 100%;
+                border-radius: 0 0 5px 5px;
+                padding: 5px 10px;
+
+                &--blue {
+                  color: @color-white;
+                  background-color: @color-blue-dark;
+                }
+                .title {
+                  text-transform: uppercase;
+                  font-size: .8em;
+                  display: flex;
+                }
+                .date {
+                  font-size: .7em;
+                  font-weight: 200;
+                  display: flex;
+                }
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-components-tiles" class="pl-js-pattern-data">
@@ -1233,7 +2170,150 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Gale Color Palette</h2>
+
+<div class="sg-title">Gale Blue</div>
+<ul class="sg-colors">
+		<li>
+		<span class="sg-swatch" style="background: #006298;"></span>
+		<span class="sg-label">
+			@color-blue-primary <br />
+			#006298
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #003865;"></span>
+		<span class="sg-label">
+			@color-blue-dark <br />
+			#003865
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #6ECEF6;"></span>
+		<span class="sg-label">
+			@color-blue-light <br />
+			#6ECEF6
+		</span>
+	</li>
+</ul>
+
+<div class="sg-title">Secondary Colors</div>
+<ul class="sg-colors">
+		<li>
+		<span class="sg-swatch" style="background: #78A12B;"></span>
+		<span class="sg-label">
+			@color-green <br />
+			#78A12B
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #00857C;"></span>
+		<span class="sg-label">
+			@color-teal <br />
+			#00857C
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #5E2064;"></span>
+		<span class="sg-label">
+			@color-purple <br />
+			#5E2064
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #D24204;"></span>
+		<span class="sg-label">
+			@color-orange <br />
+			#D24204
+		</span>
+	</li>
+</ul>
+
+<div class="sg-title">Transparent Colors</div>
+<ul class="sg-colors">
+		<li>
+		<span class="sg-swatch" style="background: rgba(0, 56, 101, .8);"></span>
+		<span class="sg-label">
+			@color-blue-dark-80 <br />
+			rgba(0, 56, 101, .8)
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: rgba(120, 161, 43, .3);"></span>
+		<span class="sg-label">
+			@color-green-30 <br />
+			rgba(120, 161, 43, .3)
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: rgba(0, 133, 124, .3);"></span>
+		<span class="sg-label">
+			@color-teal-30 <br />
+			rgba(0, 133, 124, .3)
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: rgba(94, 32, 100, .3);"></span>
+		<span class="sg-label">
+			@color-purple-30 <br />
+			rgba(94, 32, 100, .3)
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: rgba(210, 66, 4, .3);"></span>
+		<span class="sg-label">
+			@color-orange-30 <br />
+			rgba(210, 66, 4, .3)
+		</span>
+	</li>
+</ul>
+
+<div class="sg-title">Neutral Colors</div>
+<ul class="sg-colors">
+	<li>
+		<span class="sg-swatch" style="background: #fff;"></span>
+		<span class="sg-label">
+			@color-white <br />
+			#ffffff
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #f2f2f2;"></span>
+		<span class="sg-label">
+			@color-gray-light <br />
+			#f2f2f2
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #d6d6d6;"></span>
+		<span class="sg-label">
+			@color-gray-medium <br />
+			#d6d6d6
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #667780;"></span>
+		<span class="sg-label">
+			@color-gray-dark <br />
+			#667780
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #002133;"></span>
+		<span class="sg-label">
+			@color-gray-darker <br />
+			#002133
+		</span>
+	</li>
+	<li>
+		<span class="sg-swatch" style="background: #000000;"></span>
+		<span class="sg-label">
+			@color-black <br />
+			#000000
+		</span>
+	</li>
+</ul>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-elements-color-palette" class="pl-js-pattern-data">
@@ -1264,7 +2344,193 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<h2>Color Usage</h2>
+
+<div class="sg-title">Gale Blue</div>
+<div class="example-block">
+  <p><span class="bold">Primary Blue</span> is to be used as a background color (button, banner, etc.) and for text links on light backgrounds.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-blue-primary <br> #006298</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_blue-primary text-white">Text Example</div>
+      <a href="#" class="button-link text-blue-primary">Button Link</a>
+    </div>
+  </div>
+</div>
+
+<div class="example-block">
+  <p><span class="bold">Dark Blue</span> is to be used as a background color or title text</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-blue-dark <br> #003865</div>
+    <div class="sg-example">
+      <h2>Sample Header</h2>
+    </div>
+  </div>
+</div>
+
+<div class="example-block">
+  <p><span class="bold">Light Blue</span> is only to be used as a text link color on dark backgrounds.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-blue-light <br> #6ECEF6</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_blue-dark text-blue-light">Text Example</div>
+    </div>
+  </div>
+</div>
+
+<div class="sg-title">Secondary Colors</div>
+<div class="example-block">
+  <p><span class="bold">Secondary Colors</span> are used only as a background color for headers / titles with white text.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-green <br> #78A12B</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_green text-white">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-teal <br> #00857C</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_teal text-white">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-purple <br> #5E2064</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_purple text-white">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-orange <br> #D24204</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_orange text-white">Text Example</div>
+    </div>
+  </div>
+</div>
+
+<div class="sg-title">Secondary Color Transparencies</div>
+<div class="example-block">
+  <p><span class="bold">Secondary Color Transparencies</span> are used only as a background color for sub-headers/sub-titles (on top of white) with black text next to the Secondary Color.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-green-30 <br> rgba(120, 161, 43, .3)</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_green-30">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-teal-30 <br> #00857C</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_teal-30">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-purple-30 <br> #5E2064</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_purple-30">Text Example</div>
+    </div>
+  </div>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-orange-30 <br> #D24204</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_orange-30">Text Example</div>
+    </div>
+  </div>
+</div>
+
+<div class="sg-title">Light Purple</div>
+<div class="example-block">
+  <p><span class="bold">Light Purple</span> is to be used only for visited links on light backgrounds.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-purple-light <br> #8B2F93</div>
+    <div class="sg-example">
+      <div class="text-purple-light">Text Example</div>
+    </div>
+  </div>
+  <p><span class="bold">Lighter Purple</span> is to be used only for visited links on dark backgrounds.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-purple-lighter <br> #CB88DD</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_blue-dark text-purple-lighter">Text Example</div>
+    </div>
+  </div>
+</div>
+
+<div class="sg-title">Neutral Colors</div>
+<div class="example-block">
+  <p><span class="bold">White</span> is the default background color. Should be used as the text color for any text on the primary blue, dark blue, or secondary colors.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-white <br> #ffffff</div>
+    <div class="sg-example">
+      <div class="sg-color-block text-white">Text Example</div>
+    </div>
+  </div>
+
+  <p><span class="bold">Light Gray</span> is the background color that should be used when the Card component is being used. Should never be used as a text color.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-gray-light <br> #f2f2f2</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_gray-light">Text Example</div>
+    </div>
+  </div>
+
+  <p><span class="bold">Medium Gray</span> should be used when subtle accent colors are needed to differentiate areas on the White or Light Gray background. Should never be used as a text color.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-gray-medium <br> #d6d6d6</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_gray-medium">Text Example</div>
+    </div>
+  </div>
+
+  <p><span class="bold">Dark Gray</span> should be used as a background color only when White and Light Gray are already in use as background colors. Should never be used as a text color.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-gray-dark <br> #667780</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_gray-dark">Text Example</div>
+    </div>
+  </div>
+
+  <p><span class="bold">Darker Gray</span> should be used as a background color for lightboxes and used at 80% opacity. Should be used for drop shadows at 30% opacity.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-gray-darker <br> #002133</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_gray-darker text-white">Text Example</div>
+    </div>
+  </div>
+
+  <p><span class="bold">Black</span> is the default color for text.</p>
+  <!-- example -->
+  <h6>Example</h6>
+  <div class="sg-example-container">
+    <div class="sg-helptext">@color-black <br> #000000</div>
+    <div class="sg-example">
+      <div class="sg-color-block color_black">Text Example</div>
+    </div>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-elements-usage" class="pl-js-pattern-data">
@@ -1295,7 +2561,92 @@
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	
+	<div class="color-grid">
+  <div class="head-row">
+    <h2>Accessibile Use of Color</h2>
+    <p>Color combinations must meet at least WCAG 2.0 level AA contrast ratios.
+    <br>Level AA: at least 4.5:1 for normal text and 3:1 for large text (18px & BOLD or 24px).
+    <br>Level AAA: at least 7:1 for normal text and 4.5:1 for large text.
+    </p>
+    <ul class="head-row-colors">
+      <li class="color-swatch spacer color_white text-white"><small>@color-white <br> #ffffff</small></li>
+      <li class="color-swatch color_white gray-border"><small>@color-white <br> #ffffff</small></li>
+      <li class="color-swatch color_gray-light"><small>@color-gray-light <br> #f2f2f2</small></li>
+      <li class="color-swatch color_gray-medium"><small>@color-gray-medium <br> #d6d6d6</small></li>
+      <li class="color-swatch color_gray-dark"><small>@color-gray-dark <br> #667780</small></li>
+      <li class="color-swatch color_blue-dark"><small>@color-blue-dark <br> #003865</small></li>
+      <li class="color-swatch color_gray-darker"><small>@color-gray-darker <br> #002133</small></li>
+    </ul>
+  </div>
+  <div class="body-row">
+    <h5>Primary Colors</h5>
+    <ul class="grid-row">
+      <li class="color-swatch color_blue-primary"><small>@color-blue-primary <br> #006298</small></li>
+      <li class="color-rule">6.56 : 1 <br> Always</li>
+      <li class="color-rule">5.86 : 1 <br> Always</li>
+      <li class="color-rule">5.11 : 1 <br> Always</li>
+      <li class="color-rule text-orange">1.41 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.83 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">2.53 : 1 <br> Don't use.</li>
+    </ul>
+    <ul class="grid-row">
+      <li class="color-swatch color_blue-dark"><small>@color-blue-dark <br> #003865</small></li>
+      <li class="color-rule">11.98 : 1 <br> Always</li>
+      <li class="color-rule">10.72 : 1 <br> Always</li>
+      <li class="color-rule">9.33 : 1 <br> Always</li>
+      <li class="color-rule text-orange">2.57 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.39 : 1 <br> Don't use.</li>
+    </ul>
+    <ul class="grid-row">
+      <li class="color-swatch color_blue-light"><small>@color-blue-light <br> #6ECEF6</small></li>
+      <li class="color-rule text-orange">1.78 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.59 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.38 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">2.62 : 1 <br> Don't use.</li>
+      <li class="color-rule">6.74 : 1 <br> Always</li>
+      <li class="color-rule">9.34 : 1 <br> Always</li>
+    </ul>
+    <h5>Secondary Colors</h5>
+    <ul class="grid-row">
+      <li class="color-swatch color_green"><small>@color-green <br> #78A12B</small></li>
+      <li class="color-rule">3.03 : 1 <br> Large text only.</li>
+      <li class="color-rule text-orange">2.71 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">2.36 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.54 : 1 <br> Don't use.</li>
+      <li class="color-rule">3.95 : 1 <br> Large text only.</li>
+      <li class="color-rule">5.48 : 1 <br> Always</li>
+    </ul>
+    <ul class="grid-row">
+      <li class="color-swatch color_teal"><small>@color-teal <br> #00857C</small></li>
+      <li class="color-rule">4.52 : 1 <br> Always</li>
+      <li class="color-rule">4.04 : 1 <br> Large text only.</li>
+      <li class="color-rule">3.52 : 1 <br> Large text only.</li>
+      <li class="color-rule text-orange">1.03 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">2.65 : 1 <br> Don't use.</li>
+      <li class="color-rule">3.67 : 1 <br> Large text only.</li>
+    </ul>
+    <ul class="grid-row">
+      <li class="color-swatch color_purple"><small>@color-purple <br> #5E2064</small></li>
+      <li class="color-rule">11.25 : 1 <br> Always</li>
+      <li class="color-rule">10.05 : 1 <br> Always</li>
+      <li class="color-rule">8.77 : 1 <br> Always</li>
+      <li class="color-rule text-orange">2.42 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.06 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">1.48 : 1 <br> Don't use.</li>
+    </ul>
+    <ul class="grid-row">
+      <li class="color-swatch color_orange"><small>@color-orange <br> #D24204</small></li>
+      <li class="color-rule">4.64 : 1 <br> Always</li>
+      <li class="color-rule">4.15 : 1 <br> Large text only.</li>
+      <li class="color-rule">3.62 : 1 <br> Large text only.</li>
+      <li class="color-rule text-orange">1 : 1 <br> Don't use.</li>
+      <li class="color-rule text-orange">2.58 : 1 <br> Don't use.</li>
+      <li class="color-rule">3.57 : 1 <br> Large text only.</li>
+    </ul>
+  </div>
+</div>
+
 	</div><!--end pl-js-pattern-example-->
 
 	<script type="text/json" id="pl-pattern-data-elements-accessibility" class="pl-js-pattern-data">
@@ -1345,20 +2696,20 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1536261953594">
+<script id="pl-js-polyfill-insert-1536324868765">
   (function() {
     if (self != top) {
-      var cb = '1536261953594';
+      var cb = '1536324868765';
       var js = [];
       scriptLoader.run(js,cb,'pl-js-polyfill-insert');
     }
   })();
 </script>
 
-<script id="pl-js-insert-1536261953594">
+<script id="pl-js-insert-1536324868765">
   (function() {
     if (self != top) {
-      var cb = '1536261953594';
+      var cb = '1536324868765';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
@@ -1369,5 +2720,7 @@
   <script type="text/javascript" src="/js/nav.js"></script>
   <script type="text/javascript" src="/js/progress.js"></script>
   <script type="text/javascript" src="/js/overlay.js"></script>
+  <script type="text/javascript" src="/js/prism.js"></script>
+  <script type="text/javascript" src="/js/tabs.js"></script>
   </body>
 </html>

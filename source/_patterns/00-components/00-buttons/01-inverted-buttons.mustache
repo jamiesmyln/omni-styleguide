@@ -14,3 +14,67 @@
     <div class="button-label">State: Pressed</div>
   </div>
 </div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Inverted Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_inverted">{{ btnText }}</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_inverted {
+              color: @color-blue-primary;
+              border: 2px solid @color-blue-primary;
+              background-color: @color-white;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-white, 10%);
+                border: 2px darken(@color-blue-primary, 10%) solid;
+                color: darken(@color-blue-primary, 10%);
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                color: lighten(@color-blue-primary, 10%);
+                border: 2px lighten(@color-blue-primary, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>

@@ -14,3 +14,66 @@
     <div class="button-label">State: Pressed</div>
   </div>
 </div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Accent Button LESS</li>
+  <li class="tab-link">Base Button LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <button type="submit" href="#" class="button button_accent">Button</button>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            ...
+            &_accent {
+              color: @color-white;
+              background-color: @color-orange;
+              border: 2px @color-orange solid;
+              .box-shadow;
+
+              &:hover {
+                background-color: darken(@color-orange, 10%);
+                border: 2px darken(@color-orange, 10%) solid;
+                transition: all .3s ease;
+              }
+              &:active, &:visited, &:focus {
+                background-color: lighten(@color-orange, 10%);
+                border: 2px lighten(@color-orange, 10%) solid;
+                transition: all .3s ease;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .button {
+            border-radius: 2px;
+            font-weight: 500;
+            padding: 4px 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3s ease;
+          }
+        </code>
+      </pre>
+    </div>
+  </div><!-- end tab -->
+</div>

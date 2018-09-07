@@ -8,3 +8,82 @@
     <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
   </div>
 </div>
+
+<ul class="tabs">
+	<li class="tab-link current">HTML</li>
+	<li class="tab-link">Vert Card LESS</li>
+  <li class="tab-link">Base Card LESS</li>
+</ul>
+<div class="tab-row">
+  <div class="tab-content current">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-markup">
+          <script type="text/plain">
+            <div class="card card_vertical-image">
+              <div class="image-container"></div>
+              <div class="card-content">
+                <div class="category-header">Category Header</div>
+                <a href="#" class="article-title">Article Title</a>
+                <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+              </div>
+            </div>
+          </script>
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            ...
+
+            &_vertical-image {
+              max-width: 350px;
+              .image-container {
+                background: url('../images/kitty.jpg') no-repeat;
+                background-size: cover;
+                min-height: 200px;
+                border-radius: 5px 5px 0 0;
+              }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="code-container">
+      <pre>
+        <code class="line-numbers language-less">
+          .card {
+            background-color: @color-white;
+            .box-shadow;
+            border-radius: 5px;
+
+            .card-content {
+              padding: 1em;
+            }
+            .category-header {
+              text-transform: uppercase;
+              font-weight: 600;
+              font-size: .8em;
+              margin-bottom: 10px;
+            }
+            .article-title {
+              color: @color-blue-primary;
+              text-decoration: none;
+              margin-bottom: 5px;
+            }
+            .snippet-text {
+              font-size: .7em;
+              margin-top: 5px;
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
