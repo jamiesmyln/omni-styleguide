@@ -2,7 +2,7 @@ pcfNpmPipeline() {
   nexus = [
     group: "com.cengage.rgu"
   ]
-  npm = [
+  hugo = [
     buildDir: "public",
     scripts: [
       build: "hugo",
