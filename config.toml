@@ -1,0 +1,35 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Calypso"
+theme = "hugo-just-docs-theme"
+MetaDataFormat = "yaml"
+version = "1.0.0-SNAPSHOT"
+
+[params]
+    # supported values: "monokai", "github"
+    codeTheme = "github"
+
+[[menu.main]]
+    name = "About Calypso"
+    identifier = "about calypso"
+    pre = "<i class='fa fa-home'></i>"
+    url = "/home"
+    weight = -220
+
+[[menu.main]]
+    name = "Components"
+    identifier = "components"
+    pre = "<i class='fa fa-cubes'></i>"
+    weight = -180
+
+[[menu.main]]
+    name = "Elements"
+    identifier = "elements"
+    pre = "<i class='fa fa-cube'></i>"
+    weight = -170
+
+[[menu.main]]
+    name = "Guidelines"
+    identifier = "guidelines"
+    pre = "<i class='fa fa-book'></i>"
+    weight = -160

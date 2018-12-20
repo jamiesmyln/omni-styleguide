@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guidelines on Calypso</title>
+    <link>http://example.org/guidelines/</link>
+    <description>Recent content in Guidelines on Calypso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessibility</title>
+      <link>http://example.org/guidelines/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/accessibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS Style Guide</title>
+      <link>http://example.org/guidelines/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/css/</guid>
+      <description>We follow a slightly modified version of airbnb&amp;rsquo;s style guide.
+Only Use Classes IDs are not reusable and add unnecessary weight to the hierarchy. Elements are not specific enough.
+Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equal amount of the same items to override.
+#block .element a
+#block { .element { a { stuff } } }  Good This has a weight of 1 class.</description>
+    </item>
+    
+    <item>
+      <title>Design Principles</title>
+      <link>http://example.org/guidelines/design-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/design-principles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UX Resources</title>
+      <link>http://example.org/guidelines/ux-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/ux-resources/</guid>
+      <description> Design Assets  UX Google Drive InVision Mockups Sketch Library Font Awesome Pro  Research Assets  Product User Test Findings Testing Scripts  Analytics  Google Analytics Foresee  Tools  Sketch  Craft Plant  Axure InVision Adobe Creative Cloud  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/guidelines/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/css/</guid>
+      <description>&amp;quot;CSS Style Guide&amp;quot;   We follow a slightly modified version of airbnb&amp;#8217;s style guide.
+Only Use Classes IDs are not reusable and add unnecessary weight to the hierarchy. Elements are not specific enough.
+Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equal amount of the same items to override.
+#block .element a
+#block { .element { a { stuff } } }  Good This has a weight of 1 class.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/guidelines/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/accessibility/</guid>
+      <description> &amp;quot;Accessibility&amp;quot;     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/guidelines/design-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/design-principles/</guid>
+      <description> &amp;quot;Design Principles&amp;quot;     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/guidelines/ux-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/ux-resources/</guid>
+      <description> &amp;quot;UX Resources&amp;quot;   Design Assets   UX Google Drive  InVision Mockups  Sketch Library  Font Awesome Pro  Research Assets   Product User Test Findings  Testing Scripts  Analytics   Google Analytics  Foresee  Tools   Sketch  Craft Plant   Axure  InVision  Adobe Creative Cloud    </description>
+    </item>
+    
+  </channel>
+</rss>

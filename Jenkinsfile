@@ -5,7 +5,7 @@ pcfNpmPipeline() {
   npm = [
     buildDir: "public",
     scripts: [
-      build: "npm run patternlab build",
+      build: "hugo",
     ]
   ]
   deployments = [

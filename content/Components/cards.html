@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>&quot;Cards&quot;</title>
+	<meta name="menu" content="main: parent: components"/>
+	<meta name="weight" content="15"/>
+</head>
+<body>
+
+<p>Cards are a way to visually separate content, must always be on the Light Gray background <code>@color-gray-light</code>, and must always be accompanied by other cards (never use a single card alone.)</p>
+
+<hr />
+
+<h2 id="verticalcard">Vertical Card</h2>
+
+<div class="card card_vertical-image">
+  <div class="image-container"></div>
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+<br>
+<br>
+{{% tabs %}}
+{{% tab HTML %}}
+
+<pre><code class="html">&lt;div class=&quot;card card_vertical-image&quot;&gt;
+ &lt;div class=&quot;image-container&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;card-content&quot;&gt;
+   &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
+   &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
+   &lt;div class=&quot;snippet-text&quot;&gt;
+     ...
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% tab LESS %}}</p>
+
+<pre><code class="```CSS">  .card {
+    background-color: @color-white;
+    .box-shadow;
+    border-radius: 5px;
+
+    .card-content {
+      padding: 1em;
+    }
+    .category-header {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: .8em;
+      margin-bottom: 10px;
+    }
+    .article-title {
+      color: @color-blue-primary;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+    .snippet-text {
+      font-size: .7em;
+      margin-top: 5px;
+    }
+    &amp;_vertical-image {
+      max-width: 350px;
+      .image-container {
+        background: url('../images/kitty.jpg') no-repeat;
+        background-size: cover;
+        min-height: 200px;
+        border-radius: 5px 5px 0 0;
+      }
+    }
+  }
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% /tabs %}}</p>
+
+<hr />
+
+<h2 id="horizontalcard">Horizontal Card</h2>
+
+<div class="card card_horizontal-image">
+  <div class="image-container"></div>
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+<br>
+<br>
+{{% tabs %}}
+{{% tab HTML %}}
+
+<pre><code class="html">&lt;div class=&quot;card card_horizontal-image&quot;&gt;
+ &lt;div class=&quot;image-container&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;card-content&quot;&gt;
+   &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
+   &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
+   &lt;div class=&quot;snippet-text&quot;&gt;
+     ...
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% tab LESS %}}</p>
+
+<pre><code class="```CSS">  .card {
+    ...
+
+    &amp;_horizontal-image {
+      max-width: 450px;
+      display: grid;
+      grid-template-columns: 200px auto;
+
+      .image-container {
+        background: url('../images/deer.jpg') no-repeat;
+        background-size: cover;
+        display: inline-flex;
+        border-radius: 5px 0 0 5px;
+      }
+    }
+  }
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% /tabs %}}</p>
+
+<hr />
+
+<h2 id="textcard">Text Card</h2>
+
+<div class="card card_text">
+  <div class="card-content">
+    <div class="category-header">Category Header</div>
+    <a href="#" class="article-title">Article Title</a>
+    <div class="snippet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</div>
+  </div>
+</div>
+<br>
+<br>
+{{% tabs %}}
+{{% tab HTML %}}
+
+<pre><code class="html">&lt;div class=&quot;card card_text&quot;&gt;
+ &lt;div class=&quot;card-content&quot;&gt;
+   &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
+   &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
+   &lt;div class=&quot;snippet-text&quot;&gt;
+     ...
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% tab LESS %}}</p>
+
+<pre><code class="```CSS">  .card {
+    ...
+
+    &amp;_text {
+      max-width: 450px;
+    }
+  }
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% /tabs %}}</p>
+
+<hr />
+
+<h2 id="colorblockcard">Color Block Card</h2>
+
+<div class="card card_color-block">
+  <div class="card-header card-header--purple">
+    <div class="title">Color Block Card</div>
+  </div>
+  <div class="card-subheader card-subheader--purple">
+    <div class="subtitle">Subtitle</div>
+  </div>
+  <div class="card-content">
+    <input type="radio" id="pub-1" name="sample" checked />
+    <label for="pub-1">Publication 1</label>
+    <br>
+    <input type="radio" id="pub-2" name="sample" />
+    <label for="pub-2">Publication 2</label>
+    <br>
+    <input type="radio" id="pub-3" name="sample" />
+    <label for="pub-3">Publication 3</label>
+  </div>
+</div>
+<br>
+<br>
+{{% tabs %}}
+{{% tab HTML %}}
+
+<pre><code class="html">&lt;div class=&quot;card card_color-block&quot;&gt;
+ &lt;div class=&quot;card-header card-header--purple&quot;&gt;
+   &lt;div class=&quot;title&quot;&gt;Color Block Card&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;card-subheader card-subheader--purple&quot;&gt;
+   &lt;div class=&quot;subtitle&quot;&gt;Subtitle&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;card-content&quot;&gt;
+   ...
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% tab LESS %}}</p>
+
+<pre><code class="```CSS">  .card {
+    ...
+
+    &amp;_color-block {
+      .card-header {
+        border-radius: 5px 5px 0 0;
+        padding: 10px 20px;
+        &amp;--purple {
+          background-color: @color-purple;
+          color: @color-white;
+        }
+      }
+      .card-subheader {
+        padding: 10px 20px;
+        font-size: .8em;
+        &amp;--purple {
+          background-color: @color-purple-30;
+        }
+      }
+    }
+  }
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% /tabs %}}</p>
+
+<hr />
+
+<h2 id="tiles">Tiles</h2>
+
+<div class="card card_tile">
+  <div class="card_tile-footer card_tile-footer--blue">
+    <span class="title">Title</span>
+    <span class="date">Date</span>
+  </div>
+</div>
+<br>
+<br>
+{{% tabs %}}
+{{% tab HTML %}}
+
+<pre><code class="html">&lt;div class=&quot;card card_tile&quot;&gt;
+ &lt;div class=&quot;card_tile-footer card_tile-footer--blue&quot;&gt;
+   &lt;span class=&quot;title&quot;&gt;Title&lt;/span&gt;
+   &lt;span class=&quot;date&quot;&gt;Date&lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% tab LESS %}}</p>
+
+<pre><code class="```CSS">  .card {
+    ...
+
+    &amp;_tile {
+      background: url('../images/cookies.jpg') no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      width: 150px;
+      display: flex;
+
+      &amp;-footer {
+        flex-flow: row;
+        align-self: flex-end;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        padding: 5px 10px;
+
+        &amp;--blue {
+          color: @color-white;
+          background-color: @color-blue-dark;
+        }
+        .title {
+          text-transform: uppercase;
+          font-size: .8em;
+          display: flex;
+        }
+        .date {
+          font-size: .7em;
+          font-weight: 200;
+          display: flex;
+        }
+      }
+    }
+  }
+
+</code></pre>
+
+<p>{{% /tab %}}</p>
+
+<p>{{% /tabs %}}</p>
+
+</body>
+</html>
+

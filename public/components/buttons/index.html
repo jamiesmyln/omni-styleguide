@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title></title>
+
+  
+  <link href="http://example.org//css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="http://example.org//css/vendor/font-awesome.min.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,400,500,700|Montserrat|Work+Sans:100,400" rel="stylesheet">
+
+  
+    <link href="http://example.org//css/vendor/github.css" rel="stylesheet">
+  
+  <link href="http://example.org//css/style.css" rel="stylesheet">
+  <link href="http://example.org//css/theme.css" rel="stylesheet">
+
+</head>
+
+  <body>
+    
+<header id="header" class="header">
+    <span class="toggle-nav">
+        <i class="fa fa-bars nav-menu"></i>
+    </span>
+    <div class="logo">
+      <a href="/home">Calypso</a>
+    </div>
+</header>
+
+    <section class="container">
+
+      
+<aside>
+  <div id="sidebar">
+
+    <ul class="sidebar-nav sidebar-menu">
+      <li>
+        <a href="#" id="close-button">
+          <i class="fa fa-close fa-lg"></i>
+        </a>
+      </li>
+      
+      
+        
+            <li class="">
+              <a class="" href="/home">
+                  <i class='fa fa-home'></i>
+                  <span>About Calypso</span>
+              </a>
+            </li>
+        
+      
+        
+          <li class="sub-menu active">
+            <a href="javascript:;">
+              <i class='fa fa-cubes'></i>
+              <span>Components</span>
+              <span class="menu-arrow fa fa-angle-down"></span>
+
+            </a>
+            <ul class="sub open">
+              
+                <li  class="active">
+                  <a href="/components/buttons/">Buttons</a>
+                </li>
+              
+                <li >
+                  <a href="/components/cards/">Cards</a>
+                </li>
+              
+            </ul>
+          </li>
+          
+      
+        
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class='fa fa-cube'></i>
+              <span>Elements</span>
+              <span class="menu-arrow fa fa-angle-right"></span>
+
+            </a>
+            <ul class="sub">
+              
+                <li >
+                  <a href="/elements/colors/">Colors</a>
+                </li>
+              
+            </ul>
+          </li>
+          
+      
+        
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class='fa fa-book'></i>
+              <span>Guidelines</span>
+              <span class="menu-arrow fa fa-angle-right"></span>
+
+            </a>
+            <ul class="sub">
+              
+                <li >
+                  <a href="/guidelines/accessibility/">Accessibility</a>
+                </li>
+              
+                <li >
+                  <a href="/guidelines/css/">CSS Style Guide</a>
+                </li>
+              
+                <li >
+                  <a href="/guidelines/design-principles/">Design Principles</a>
+                </li>
+              
+                <li >
+                  <a href="/guidelines/ux-resources/">UX Resources</a>
+                </li>
+              
+            </ul>
+          </li>
+          
+      
+    </ul>
+    <section id="nav-footer"></section>
+
+  </div>
+</aside>
+
+      
+      <section id="main-content">
+
+            <div class="article-tagline">
+              <h1> Buttons </h1>
+              
+            </div>
+            <div class="article-body">
+              <div class="row">
+                
+                  <div class="main-col col-md-10 col-sm-12">
+                
+                
+
+<p>Buttons are used for actions a user can take on a page. Their visual design is intended to make them stand out against content to make it more apparent what actions are available to a user.</p>
+
+<p><em>We do not disable buttons.</em> Disabled buttons present accessibility issues and can confuse users as to how to enable them. So instead, we allow users to press any button and show a message if something must be done before that action can be taken.</p>
+
+<hr />
+
+<h2 id="primary">Primary</h2>
+
+<p><button type="submit" href="#" class="button button_primary">Primary Button</button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_primary&quot;&gt;Primary Button&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button {
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 4px 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+    &amp;_primary {
+      color: @color-white;
+      background-color: @color-blue-primary;
+      border: 2px @color-blue-primary solid;
+      .box-shadow;
+
+      &amp;:hover {
+        background-color: darken(@color-blue-primary, 10%);
+        border: 2px darken(@color-blue-primary, 10%) solid;
+        transition: all .3s ease;
+      }
+      &amp;:active, &amp;:visited, &amp;:focus {
+        background-color: lighten(@color-blue-primary, 10%);
+        border: 2px lighten(@color-blue-primary, 10%) solid;
+        transition: all .3s ease;
+      }
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+<hr />
+
+<h2 id="inverted">Inverted</h2>
+
+<p><button type="submit" href="#" class="button button_inverted">Inverted Button</button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_inverted&quot;&gt;Inverted Button&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button {
+    ...
+    &amp;_inverted {
+      color: @color-blue-primary;
+      border: 2px solid @color-blue-primary;
+      background-color: @color-white;
+      .box-shadow;
+
+      &amp;:hover {
+        background-color: darken(@color-white, 10%);
+        border: 2px darken(@color-blue-primary, 10%) solid;
+        color: darken(@color-blue-primary, 10%);
+        transition: all .3s ease;
+      }
+      &amp;:active, &amp;:visited, &amp;:focus {
+        color: lighten(@color-blue-primary, 10%);
+        border: 2px lighten(@color-blue-primary, 10%) solid;
+        transition: all .3s ease;
+      }
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+<hr />
+
+<h2 id="accent">Accent</h2>
+
+<p><button type="submit" href="#" class="button button_accent">Accent Button</button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_accent&quot;&gt;Accent Button&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button {
+    ...
+    &amp;_accent {
+      color: @color-white;
+      background-color: @color-orange;
+      border: 2px @color-orange solid;
+      .box-shadow;
+
+      &amp;:hover {
+        background-color: darken(@color-orange, 10%);
+        border: 2px darken(@color-orange, 10%) solid;
+        transition: all .3s ease;
+      }
+      &amp;:active, &amp;:visited, &amp;:focus {
+        background-color: lighten(@color-orange, 10%);
+        border: 2px lighten(@color-orange, 10%) solid;
+        transition: all .3s ease;
+      }
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+<hr />
+
+<h2 id="text-icon">Text+Icon</h2>
+
+<p><button type="submit" href="#" class="button button_primary-icon"><i class="fa fa-chevron-left"></i> Button</button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_primary-icon&quot;&gt;&lt;i class=&quot;fa fa-chevron-left&quot;&gt;&lt;/i&gt; Button&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button {
+    ...
+    &amp;_primary-icon {
+      color: @color-white;
+      background-color: @color-blue-primary;
+      border: 2px @color-blue-primary solid;
+      .box-shadow;
+
+      &amp;:hover {
+        background-color: darken(@color-blue-primary, 10%);
+        border: 2px darken(@color-blue-primary, 10%) solid;
+        transition: all .3s ease;
+      }
+      &amp;:active, &amp;:visited, &amp;:focus {
+        background-color: lighten(@color-blue-primary, 10%);
+        border: 2px lighten(@color-blue-primary, 10%) solid;
+        transition: all .3s ease;
+      }
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+<hr />
+
+<h2 id="icon-only">Icon Only</h2>
+
+<p><button type="submit" href="#" class="button button_circle-icon"><i class="fa fa-chevron-left"></i></button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_circle-icon&quot;&gt;&lt;i class=&quot;fa fa-chevron-left&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button_circle-icon {
+    cursor: pointer;
+    .box-shadow;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1.5em;
+    padding: 0;
+    border: 2px solid @color-white;
+
+    svg {
+      margin-left: -3px;
+    }
+
+    &amp;:hover {
+      background-color: darken(@color-white, 10%);
+      border: 2px darken(@color-white, 10%) solid;
+      transition: all .3s ease;
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+<hr />
+
+<h2 id="link-button">Link Button</h2>
+
+<p><button type="submit" href="#" class="button button_link">Link Button</button>
+<br>
+<br>
+<div class='code-tabs'>
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content"><div class="tab-pane" title="HTML">
+  <pre><code class="language-html"> &lt;button type=&quot;submit&quot; href=&quot;#&quot; class=&quot;button button_circle-icon&quot;&gt;&lt;/button&gt;
+</code></pre>
+
+</div>
+
+<div class="tab-pane" title="LESS">
+  <pre><code class="language-CSS">  .button {
+    ...
+    &amp;_link {
+      color: @color-blue-primary;
+      background-color: @color-white;
+      border: 2px @color-white solid;
+
+      &amp;:hover {
+        color: darken(@color-blue-primary, 10%);
+        text-decoration: underline;
+        transition: all .3s ease;
+      }
+    }
+  }
+</code></pre>
+
+</div>
+</div>
+</div>
+</p>
+
+                
+  <div class="bottom-nav">
+  <nav class="nav-footer">
+    <div class="previous col-xs-6">
+      
+      <a href="http://example.org/guidelines/accessibility/" title="http://example.org/guidelines/accessibility/">
+        <span><i class="fa fa-arrow-left"></i></span>
+        <span>Previous</span>
+        <div class="nav-title">
+          Accessibility
+        </div>
+      </a>
+      
+    </div>
+    <div class="next col-xs-6">
+      
+      <span class="pull-right">
+        <a href="http://example.org/components/cards/" title="http://example.org/components/cards/">
+          <span>Next</span>
+          <span><i class="fa fa-arrow-right"></i></span>
+          <div class="nav-title">
+            Cards
+          </div>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+
+
+                  </div> 
+                  
+                    <div class="col-md-2">
+                    
+<div class="visible-md visible-lg" id="toc-nav">
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#primary">Primary</a></li>
+<li><a href="#inverted">Inverted</a></li>
+<li><a href="#accent">Accent</a></li>
+<li><a href="#text-icon">Text+Icon</a></li>
+<li><a href="#icon-only">Icon Only</a></li>
+<li><a href="#link-button">Link Button</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+
+                    </div>
+                  
+              </div> 
+            </div> 
+          </section> 
+        </section> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <script src="http://example.org//js/vendor/bootstrap.min.js"></script>
+        <script src="http://example.org//js/vendor/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script src="http://example.org//js/vendor/clipboard.min.js"></script>
+        <script src="http://example.org//js/theme.js"></script>
+        
+        </body>
+</html>
