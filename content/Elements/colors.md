@@ -3,7 +3,7 @@ title:  "Colors"
 menu:
   main:
     parent: elements
-weight: 15
+weight: 40
 ---
 
 ## Colors

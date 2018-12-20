@@ -3,7 +3,7 @@ title:  "UX Resources"
 menu:
   main:
     parent: guidelines
-weight: 18
+weight: 54
 ---
 
 ## Design Assets

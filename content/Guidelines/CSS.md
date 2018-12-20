@@ -3,7 +3,7 @@ title:  "CSS Style Guide"
 menu:
   main:
     parent: guidelines
-weight: 16
+weight: 51
 ---
 We follow a slightly modified version of [airbnb's style guide.](https://github.com/airbnb/css)
 

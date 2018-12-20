@@ -9,6 +9,20 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.gitmodules": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitmodules",
+		"oF": 0
+		},
 	"/archetypes/default.md": {
 		"cB": 0,
 		"cS": 0,
@@ -109,6 +123,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/content/Guidelines/accessibility.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/Guidelines/accessibility.html",
+		"oF": 0
+		},
 	"/content/Guidelines/accessibility.md": {
 		"cB": 0,
 		"cS": 0,
@@ -126,6 +147,31 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/content/Guidelines/css-best-practices.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/content/Guidelines/css-best-practices.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/content/Guidelines/CSS.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/Guidelines/CSS.html",
+		"oF": 0
 		},
 	"/content/Guidelines/CSS.md": {
 		"cB": 0,
@@ -145,6 +191,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/content/Guidelines/design-principles.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/Guidelines/design-principles.html",
+		"oF": 0
+		},
 	"/content/Guidelines/design-principles.md": {
 		"cB": 0,
 		"cS": 0,
@@ -162,6 +215,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/content/Guidelines/ux-resources.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/Guidelines/ux-resources.html",
+		"oF": 0
 		},
 	"/content/Guidelines/ux-resources.md": {
 		"cB": 0,
@@ -460,6 +520,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/public/guidelines/accessibility/index.html",
+		"oF": 0
+		},
+	"/public/guidelines/css-best-practices/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/guidelines/css-best-practices/index.html",
+		"oF": 0
+		},
+	"/public/guidelines/css/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/guidelines/css/index.html",
 		"oF": 0
 		},
 	"/public/guidelines/design-principles/index.html": {
@@ -1340,8 +1414,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 566158197.90402102,
-	"displayValue": "calypso",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "gale-styles",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-facepalm",
 	"iconImageWasSetByUser": 0
 	},

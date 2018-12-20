@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>Accessibility</title>
-      <link>http://example.org/guidelines/accessibility/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/guidelines/accessibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Buttons</title>
       <link>http://example.org/components/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,6 +42,15 @@ Transparent Colors   @color-blue-dark-80 rgba(0, 56, 101, .8)     @color-green-3
     </item>
     
     <item>
+      <title>Accessibility</title>
+      <link>http://example.org/guidelines/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/accessibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CSS Style Guide</title>
       <link>http://example.org/guidelines/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,6 +70,15 @@ Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equa
       
       <guid>http://example.org/guidelines/design-principles/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>CSS Best Practices</title>
+      <link>http://example.org/guidelines/css-best-practices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/css-best-practices/</guid>
+      <description> Theming </description>
     </item>
     
     <item>

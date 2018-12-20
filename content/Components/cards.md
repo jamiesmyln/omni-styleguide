@@ -3,7 +3,7 @@ title:  "Cards"
 menu:
   main:
     parent: components
-weight: 15
+weight: 16
 ---
 Cards are a way to visually separate content, must always be on the Light Gray background `@color-gray-light`, and must always be accompanied by other cards (never use a single card alone.)
 

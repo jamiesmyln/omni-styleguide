@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>&quot;CSS Best Practices&quot;</title>
+	<meta name="menu" content="main: parent: guidelines"/>
+	<meta name="weight" content="52"/>
+</head>
+<body>
+
+<h2 id="theming">Theming</h2>
+
+<p>Theming is a way to use variables to reduce repetition and improve quality of life. A list of color variables for example, can be used as values for other semantic variables.</p>
+
+<h3 id="example">Example</h3>
+
+<p>In variables.less we have this:</p>
+
+<pre><code class="html">@color-blue-primary: #006298;
+@color-white: #ffffff;
+
+@button-primary-bg: @color-blue-primary;
+@button-primary-text: @color-white;
+
+</code></pre>
+
+<p>In practice, we would use it like this:</p>
+
+<pre><code class="css">.button_primary {
+  background-color: @button-primary-bg;
+  color: @button-primary-text;
+}
+</code></pre>
+
+<p>Which allows us to simply change the value of <code>@button-primary-bg</code> when the theme requires a different color instead of finding all the places <code>@color-blue-primary</code> is used.</p>
+
+<hr />
+
+<h2 id="utilityclasses">Utility Classes</h2>
+
+<h2 id="mixins">Mixins</h2>
+
+<h2 id="mediaqueries">Media Queries</h2>
+
+<h2 id="featurequeries">Feature Queries</h2>
+
+</body>
+</html>
+
