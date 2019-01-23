@@ -148,6 +148,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/content/Guidelines/css-best-practices.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/Guidelines/css-best-practices.html",
+		"oF": 0
+		},
 	"/content/Guidelines/css-best-practices.md": {
 		"cB": 0,
 		"cS": 0,
@@ -873,6 +880,23 @@
 		"oA": 1,
 		"oAP": "/static/styles/components/cards.css",
 		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/static/styles/components/color-palette.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/static/styles/components/color-palette.css",
+		"oF": 1,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
