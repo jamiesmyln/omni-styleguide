@@ -4,6 +4,6 @@
   "scripts": {
     "start": "hugo serve",
     "build": "hugo build",
-    "test": "jest"
+    "test":  "echo \"Error: no test specified\" && exit 1"
   }
 }
