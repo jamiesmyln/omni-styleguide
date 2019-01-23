@@ -1,0 +1,7 @@
+{
+  "name": "gale-styles",
+  "version": "1.0.0-SNAPSHOT",
+  "scripts": {
+    test: "echo 'testing ;)'"
+  }
+}
