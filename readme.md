@@ -6,7 +6,7 @@
 
 2. `git clone http://jsmylny@stash.corp.web:7990/scm/rgu/omni-styleguide.git`
 
-3. `cd gale-styles`
+3. `cd omni-styleguide`
 
 4. `hugo server -D`
 

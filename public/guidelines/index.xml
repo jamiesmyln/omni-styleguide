@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guidelines on Omni Style Guide</title>
-    <link>/guidelines/</link>
+    <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/</link>
     <description>Recent content in Guidelines on Omni Style Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/guidelines/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibility</title>
-      <link>/guidelines/accessibility/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/accessibility/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS Style Guide</title>
-      <link>/guidelines/css/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/css/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</guid>
       <description>We follow a slightly modified version of airbnb&amp;rsquo;s style guide.
 Only Use Classes IDs are not reusable and add unnecessary weight to the hierarchy. Elements are not specific enough.
 Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equal amount of the same items to override.
@@ -34,10 +34,10 @@ Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equa
     
     <item>
       <title>CSS Best Practices</title>
-      <link>/guidelines/css-best-practices/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/css-best-practices/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</guid>
       <description>Theming Theming is a way to use variables to reduce repetition and improve quality of life. A list of color variables for example, can be used as values for other semantic variables.
 Example In variables.less we have this:
 @color-blue-primary: #006298; @color-white: #ffffff; @button-primary-bg: @color-blue-primary; @button-primary-text: @color-white;  In practice, we would use it like this:
@@ -46,28 +46,28 @@ Example In variables.less we have this:
     
     <item>
       <title>Design Principles</title>
-      <link>/guidelines/design-principles/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/design-principles/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UX Resources</title>
-      <link>/guidelines/ux-resources/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/ux-resources/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</guid>
       <description> Design Assets  UX Google Drive InVision Mockups Sketch Library Font Awesome Pro  Research Assets  Product User Test Findings Testing Scripts  Analytics  Google Analytics Foresee  Tools  Sketch  Craft Plant  Axure InVision Adobe Creative Cloud  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/guidelines/css/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/css/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</guid>
       <description>&amp;quot;CSS Style Guide&amp;quot;   We follow a slightly modified version of airbnb&amp;#8217;s style guide.
 Only Use Classes IDs are not reusable and add unnecessary weight to the hierarchy. Elements are not specific enough.
 Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equal amount of the same items to override.
@@ -77,19 +77,19 @@ Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equa
     
     <item>
       <title></title>
-      <link>/guidelines/accessibility/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/accessibility/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</guid>
       <description> &amp;quot;Accessibility&amp;quot;     </description>
     </item>
     
     <item>
       <title></title>
-      <link>/guidelines/css-best-practices/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/css-best-practices/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</guid>
       <description>&amp;quot;CSS Best Practices&amp;quot;   Theming Theming is a way to use variables to reduce repetition and improve quality of life. A list of color variables for example, can be used as values for other semantic variables.
 Example In variables.less we have this:
 @color-blue-primary: #006298; @color-white: #ffffff; @button-primary-bg: @color-blue-primary; @button-primary-text: @color-white;  In practice, we would use it like this:
@@ -98,19 +98,19 @@ Example In variables.less we have this:
     
     <item>
       <title></title>
-      <link>/guidelines/design-principles/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/design-principles/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</guid>
       <description> &amp;quot;Design Principles&amp;quot;     </description>
     </item>
     
     <item>
       <title></title>
-      <link>/guidelines/ux-resources/</link>
+      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/guidelines/ux-resources/</guid>
+      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</guid>
       <description> &amp;quot;UX Resources&amp;quot;   Design Assets  UX Google Drive InVision Mockups Sketch Library Font Awesome Pro  Research Assets  Product User Test Findings Testing Scripts  Analytics  Google Analytics Foresee  Tools  Sketch  Craft Plant   Axure InVision Adobe Creative Cloud    </description>
     </item>
     
