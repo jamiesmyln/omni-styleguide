@@ -1,161 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title></title>
-
-  
-  <link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/css/vendor/bootstrap.min.css" rel="stylesheet">
-  <link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/css/vendor/font-awesome.min.css" rel="stylesheet">
-  
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,400,500,700|Montserrat|Work+Sans:100,400" rel="stylesheet">
-
-  
-    <link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/css/vendor/github.css" rel="stylesheet">
-  
-  <link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/css/style.css" rel="stylesheet">
-  <link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/css/theme.css" rel="stylesheet">
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>&quot;Cards&quot;</title>
+	<meta name="menu" content="main: parent: components"/>
+	<meta name="weight" content="15"/>
 </head>
-
-  <body>
-    
-<header id="header" class="header">
-    <span class="toggle-nav">
-        <i class="fa fa-bars nav-menu"></i>
-    </span>
-    <div class="logo">
-      <a href="/home">Calypso</a>
-    </div>
-</header>
-
-    <section class="container">
-
-      
-<aside>
-  <div id="sidebar">
-
-    <ul class="sidebar-nav sidebar-menu">
-      <li>
-        <a href="#" id="close-button">
-          <i class="fa fa-close fa-lg"></i>
-        </a>
-      </li>
-      
-      
-        
-            <li class="">
-              <a class="" href="/home">
-                  <i class='fa fa-home'></i>
-                  <span>About Calypso</span>
-              </a>
-            </li>
-        
-      
-        
-          <li class="sub-menu active">
-            <a href="javascript:;">
-              <i class='fa fa-cubes'></i>
-              <span>Components</span>
-              <span class="menu-arrow fa fa-angle-down"></span>
-
-            </a>
-            <ul class="sub open">
-              
-                <li >
-                  <a href="/components/buttons/">Buttons</a>
-                </li>
-              
-                <li  class="active">
-                  <a href="/components/cards/">Cards</a>
-                </li>
-              
-            </ul>
-          </li>
-          
-      
-        
-          <li class="sub-menu">
-            <a href="javascript:;">
-              <i class='fa fa-cube'></i>
-              <span>Elements</span>
-              <span class="menu-arrow fa fa-angle-right"></span>
-
-            </a>
-            <ul class="sub">
-              
-                <li >
-                  <a href="/elements/colors/">Colors</a>
-                </li>
-              
-            </ul>
-          </li>
-          
-      
-        
-          <li class="sub-menu">
-            <a href="javascript:;">
-              <i class='fa fa-book'></i>
-              <span>Guidelines</span>
-              <span class="menu-arrow fa fa-angle-right"></span>
-
-            </a>
-            <ul class="sub">
-              
-                <li >
-                  <a href="/guidelines/accessibility/">Accessibility</a>
-                </li>
-              
-                <li >
-                  <a href="/guidelines/css/">CSS Style Guide</a>
-                </li>
-              
-                <li >
-                  <a href="/guidelines/css-best-practices/">CSS Best Practices</a>
-                </li>
-              
-                <li >
-                  <a href="/guidelines/design-principles/">Design Principles</a>
-                </li>
-              
-                <li >
-                  <a href="/guidelines/ux-resources/">UX Resources</a>
-                </li>
-              
-            </ul>
-          </li>
-          
-      
-    </ul>
-    <section id="nav-footer"></section>
-
-  </div>
-</aside>
-
-      
-      <section id="main-content">
-
-            <div class="article-tagline">
-              <h1> Cards </h1>
-              
-            </div>
-            <div class="article-body">
-              <div class="row">
-                
-                  <div class="main-col col-md-10 col-sm-12">
-                
-                
+<body>
+	
 
 <p>Cards are a way to visually separate content, must always be on the Light Gray background <code>@color-gray-light</code>, and must always be accompanied by other cards (never use a single card alone.)</p>
 
 <hr />
 
-<h2 id="vertical-card">Vertical Card</h2>
+<h2 id="verticalcard">Vertical Card</h2>
 
-<p><div class="card card_vertical-image">
+<div class="card card_vertical-image">
   <div class="image-container"></div>
   <div class="card-content">
     <div class="category-header">Category Header</div>
@@ -167,23 +27,29 @@
 <br>
 <div class='code-tabs'>
   <ul class="nav nav-tabs"></ul>
-  <div class="tab-content"><div class="tab-pane" title="HTML">
-  <pre><code class="language-html">&lt;div class=&quot;card card_vertical-image&quot;&gt;
+  <div class="tab-content"><p><div class="tab-pane" title="HTML">
+  <pre><code class="html">&lt;div class=&quot;card card_vertical-image&quot;&gt;
  &lt;div class=&quot;image-container&quot;&gt;&lt;/div&gt;
  &lt;div class=&quot;card-content&quot;&gt;
    &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
    &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
    &lt;div class=&quot;snippet-text&quot;&gt;
-     ...
+     &hellip;
    &lt;/div&gt;
  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</p>
 
-</div>
+<p></code></pre></p>
 
-<div class="tab-pane" title="LESS">
-  <pre><code class="language-CSS">  .card {
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><div class="tab-pane" title="LESS">
+  <p></p></p>
+
+<pre><code class="```CSS">  .card {
     background-color: @color-white;
     .box-shadow;
     border-radius: 5px;
@@ -216,18 +82,24 @@
       }
     }
   }
+
 </code></pre>
 
-</div>
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><p></p>
 </div>
 </div>
 </p>
 
 <hr />
 
-<h2 id="horizontal-card">Horizontal Card</h2>
+<h2 id="horizontalcard">Horizontal Card</h2>
 
-<p><div class="card card_horizontal-image">
+<div class="card card_horizontal-image">
   <div class="image-container"></div>
   <div class="card-content">
     <div class="category-header">Category Header</div>
@@ -239,23 +111,29 @@
 <br>
 <div class='code-tabs'>
   <ul class="nav nav-tabs"></ul>
-  <div class="tab-content"><div class="tab-pane" title="HTML">
-  <pre><code class="language-html">&lt;div class=&quot;card card_horizontal-image&quot;&gt;
+  <div class="tab-content"><p><div class="tab-pane" title="HTML">
+  <pre><code class="html">&lt;div class=&quot;card card_horizontal-image&quot;&gt;
  &lt;div class=&quot;image-container&quot;&gt;&lt;/div&gt;
  &lt;div class=&quot;card-content&quot;&gt;
    &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
    &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
    &lt;div class=&quot;snippet-text&quot;&gt;
-     ...
+     &hellip;
    &lt;/div&gt;
  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</p>
 
-</div>
+<p></code></pre></p>
 
-<div class="tab-pane" title="LESS">
-  <pre><code class="language-CSS">  .card {
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><div class="tab-pane" title="LESS">
+  <p></p></p>
+
+<pre><code class="```CSS">  .card {
     ...
 
     &amp;_horizontal-image {
@@ -271,18 +149,24 @@
       }
     }
   }
+
 </code></pre>
 
-</div>
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><p></p>
 </div>
 </div>
 </p>
 
 <hr />
 
-<h2 id="text-card">Text Card</h2>
+<h2 id="textcard">Text Card</h2>
 
-<p><div class="card card_text">
+<div class="card card_text">
   <div class="card-content">
     <div class="category-header">Category Header</div>
     <a href="#" class="article-title">Article Title</a>
@@ -293,40 +177,52 @@
 <br>
 <div class='code-tabs'>
   <ul class="nav nav-tabs"></ul>
-  <div class="tab-content"><div class="tab-pane" title="HTML">
-  <pre><code class="language-html">&lt;div class=&quot;card card_text&quot;&gt;
+  <div class="tab-content"><p><div class="tab-pane" title="HTML">
+  <pre><code class="html">&lt;div class=&quot;card card_text&quot;&gt;
  &lt;div class=&quot;card-content&quot;&gt;
    &lt;div class=&quot;category-header&quot;&gt;Category Header&lt;/div&gt;
    &lt;a href=&quot;#&quot; class=&quot;article-title&quot;&gt;Article Title&lt;/a&gt;
    &lt;div class=&quot;snippet-text&quot;&gt;
-     ...
+     &hellip;
    &lt;/div&gt;
  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</p>
 
-</div>
+<p></code></pre></p>
 
-<div class="tab-pane" title="LESS">
-  <pre><code class="language-CSS">  .card {
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><div class="tab-pane" title="LESS">
+  <p></p></p>
+
+<pre><code class="```CSS">  .card {
     ...
 
     &amp;_text {
       max-width: 450px;
     }
   }
+
 </code></pre>
 
-</div>
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><p></p>
 </div>
 </div>
 </p>
 
 <hr />
 
-<h2 id="color-block-card">Color Block Card</h2>
+<h2 id="colorblockcard">Color Block Card</h2>
 
-<p><div class="card card_color-block">
+<div class="card card_color-block">
   <div class="card-header card-header--purple">
     <div class="title">Color Block Card</div>
   </div>
@@ -348,24 +244,30 @@
 <br>
 <div class='code-tabs'>
   <ul class="nav nav-tabs"></ul>
-  <div class="tab-content"><div class="tab-pane" title="HTML">
-  <pre><code class="language-html">&lt;div class=&quot;card card_color-block&quot;&gt;
- &lt;div class=&quot;card-header card-header--purple&quot;&gt;
+  <div class="tab-content"><p><div class="tab-pane" title="HTML">
+  <pre><code class="html">&lt;div class=&quot;card card_color-block&quot;&gt;
+ &lt;div class=&quot;card-header card-header&ndash;purple&quot;&gt;
    &lt;div class=&quot;title&quot;&gt;Color Block Card&lt;/div&gt;
  &lt;/div&gt;
- &lt;div class=&quot;card-subheader card-subheader--purple&quot;&gt;
+ &lt;div class=&quot;card-subheader card-subheader&ndash;purple&quot;&gt;
    &lt;div class=&quot;subtitle&quot;&gt;Subtitle&lt;/div&gt;
  &lt;/div&gt;
  &lt;div class=&quot;card-content&quot;&gt;
-   ...
+   &hellip;
  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</p>
 
-</div>
+<p></code></pre></p>
 
-<div class="tab-pane" title="LESS">
-  <pre><code class="language-CSS">  .card {
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><div class="tab-pane" title="LESS">
+  <p></p></p>
+
+<pre><code class="```CSS">  .card {
     ...
 
     &amp;_color-block {
@@ -386,9 +288,15 @@
       }
     }
   }
+
 </code></pre>
 
-</div>
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><p></p>
 </div>
 </div>
 </p>
@@ -397,7 +305,7 @@
 
 <h2 id="tiles">Tiles</h2>
 
-<p><div class="card card_tile">
+<div class="card card_tile">
   <div class="card_tile-footer card_tile-footer--blue">
     <span class="title">Title</span>
     <span class="date">Date</span>
@@ -407,19 +315,25 @@
 <br>
 <div class='code-tabs'>
   <ul class="nav nav-tabs"></ul>
-  <div class="tab-content"><div class="tab-pane" title="HTML">
-  <pre><code class="language-html">&lt;div class=&quot;card card_tile&quot;&gt;
- &lt;div class=&quot;card_tile-footer card_tile-footer--blue&quot;&gt;
+  <div class="tab-content"><p><div class="tab-pane" title="HTML">
+  <pre><code class="html">&lt;div class=&quot;card card_tile&quot;&gt;
+ &lt;div class=&quot;card_tile-footer card_tile-footer&ndash;blue&quot;&gt;
    &lt;span class=&quot;title&quot;&gt;Title&lt;/span&gt;
    &lt;span class=&quot;date&quot;&gt;Date&lt;/span&gt;
  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</p>
 
-</div>
+<p></code></pre></p>
 
-<div class="tab-pane" title="LESS">
-  <pre><code class="language-CSS">  .card {
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><div class="tab-pane" title="LESS">
+  <p></p></p>
+
+<pre><code class="```CSS">  .card {
     ...
 
     &amp;_tile {
@@ -454,76 +368,18 @@
       }
     }
   }
+
 </code></pre>
 
-</div>
+<p><p></p>
+
+<p></div>
+</p></p>
+
+<p><p></p>
 </div>
 </div>
 </p>
 
-                
-  <div class="bottom-nav">
-  <nav class="nav-footer">
-    <div class="previous col-xs-6">
-      
-      <a href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/buttons/" title="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/buttons/">
-        <span><i class="fa fa-arrow-left"></i></span>
-        <span>Previous</span>
-        <div class="nav-title">
-          Buttons
-        </div>
-      </a>
-      
-    </div>
-    <div class="next col-xs-6">
-      
-      <span class="pull-right">
-        <a href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/" title="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/">
-          <span>Next</span>
-          <span><i class="fa fa-arrow-right"></i></span>
-          <div class="nav-title">
-            Colors
-          </div>
-        </a>
-      </span>
-      
-    </div>
-  </div>
-
-
-                  </div> 
-                  
-                    <div class="col-md-2">
-                    
-<div class="visible-md visible-lg" id="toc-nav">
-  <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#vertical-card">Vertical Card</a></li>
-<li><a href="#horizontal-card">Horizontal Card</a></li>
-<li><a href="#text-card">Text Card</a></li>
-<li><a href="#color-block-card">Color Block Card</a></li>
-<li><a href="#tiles">Tiles</a></li>
-</ul></li>
-</ul>
-</nav>
-</div>
-
-                    </div>
-                  
-              </div> 
-            </div> 
-          </section> 
-        </section> 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        
-        <script src="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/js/vendor/bootstrap.min.js"></script>
-        <script src="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/js/vendor/highlight.pack.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        <script src="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/js/vendor/clipboard.min.js"></script>
-        <script src="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/js/theme.js"></script>
-        
-        </body>
+</body>
 </html>

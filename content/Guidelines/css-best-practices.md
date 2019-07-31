@@ -16,7 +16,6 @@ In variables.less we have this:
 @color-blue-primary: #006298;
 @color-white: #ffffff;
 
-
 @button-primary-bg: @color-blue-primary;
 @button-primary-text: @color-white;
 

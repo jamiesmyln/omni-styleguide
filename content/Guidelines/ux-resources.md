@@ -6,7 +6,6 @@ menu:
 weight: 54
 ---
 
-
 ## Design Assets
 
   - [UX Google Drive](https://drive.google.com/drive/folders/1Fjntg2lbBxFkj8GZsDHLB_KuIgcDuiDM?usp=sharing")

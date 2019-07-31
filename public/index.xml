@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Omni Design System</title>
+    <title>Omni Styleguide</title>
     <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/</link>
-    <description>Recent content on Omni Design System</description>
+    <description>Recent content on Omni Styleguide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -173,7 +173,7 @@ Example In variables.less we have this:
     </item>
     
     <item>
-      <title>About Calypso</title>
+      <title>About Omni Styleguide</title>
       <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

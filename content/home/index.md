@@ -1,5 +1,5 @@
 ---
-title:  "About Calypso"
+title:  "About Omni Styleguide"
 ---
 
 ## Gale's Design System

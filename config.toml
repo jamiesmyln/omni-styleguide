@@ -1,6 +1,6 @@
 baseURL = "http://omni-styleguide.s3-website-us-east-1.amazonaws.com"
 languageCode = "en-us"
-title = "Omni Design System"
+title = "Omni Styleguide"
 theme = "hugo-just-docs-theme"
 MetaDataFormat = "yaml"
 version = "1.0.0-SNAPSHOT"
@@ -10,8 +10,8 @@ version = "1.0.0-SNAPSHOT"
     codeTheme = "github"
 
 [[menu.main]]
-    name = "About Calypso"
-    identifier = "about calypso"
+    name = "About Omni Styleguide"
+    identifier = "about omni styleguide"
     pre = "<i class='fa fa-home'></i>"
     url = "/home"
     weight = -220
