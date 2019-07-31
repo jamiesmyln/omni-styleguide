@@ -36,9 +36,7 @@ Vertical Card  Category Header Article Title Lorem ipsum dolor sit amet, consect
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/elements/colors/</guid>
-      <description>Colors Gale Blue   @color-blue-primary #006298     @color-blue-dark #003865     @color-blue-light #6ECEF6   
-Secondary Colors   @color-green #78A12B     @color-teal #00857C     @color-purple #5E2064     @color-orange #D24204   
-Transparent Colors   @color-blue-dark-80 rgba(0, 56, 101, .8)     @color-green-30 rgba(120, 161, 43, .3)     @color-teal-30 rgba(0, 133, 124, .</description>
+      <description>@color-blue-primary #006298  @color-orange #D24204   @color-blue-dark #003865  @color-blue-light #6ECEF6  @color-green #78A12B  @color-teal #00857C  @color-purple #5E2064   @color-white #ffffff  @color-gray-light #f2f2f2  @color-gray-medium #d6d6d6  @color-gray-dark #667780  @color-gray-darker #002133  @color-black #000000    </description>
     </item>
     
     <item>
@@ -64,21 +62,24 @@ Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equa
     </item>
     
     <item>
+      <title>CSS Best Practices</title>
+      <link>http://example.org/guidelines/css-best-practices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/css-best-practices/</guid>
+      <description>Theming Theming is a way to use variables to reduce repetition and improve quality of life. A list of color variables for example, can be used as values for other semantic variables.
+Example In variables.less we have this:
+@color-blue-primary: #006298; @color-white: #ffffff; @button-primary-bg: @color-blue-primary; @button-primary-text: @color-white;  In practice, we would use it like this:
+.button_primary { background-color: @button-primary-bg; color: @button-primary-text; }  Which allows us to simply change the value of @button-primary-bg when the theme requires a different color instead of finding all the places @color-blue-primary is used.</description>
+    </item>
+    
+    <item>
       <title>Design Principles</title>
       <link>http://example.org/guidelines/design-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/guidelines/design-principles/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>CSS Best Practices</title>
-      <link>http://example.org/guidelines/css-best-practices/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/guidelines/css-best-practices/</guid>
-      <description> Theming </description>
     </item>
     
     <item>
@@ -116,7 +117,7 @@ Vertical Card  Category Header Article Title Lorem ipsum dolor sit amet, consect
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/elements/colors/</guid>
-      <description>&amp;quot;Colors&amp;quot;   Colors Gale Blue   @color-blue-primary #006298     @color-blue-dark #003865     @color-blue-light #6ECEF6    Secondary Colors   @color-green #78A12B     @color-teal #00857C     @color-purple #5E2064     @color-orange #D24204    Transparent Colors   @color-blue-dark-80 rgba(0, 56, 101, .8)     @color-green-30 rgba(120, 161, 43, .</description>
+      <description> &amp;quot;Colors&amp;quot;   @color-blue-primary #006298  @color-orange #D24204   @color-blue-dark #003865  @color-blue-light #6ECEF6  @color-green #78A12B  @color-teal #00857C  @color-purple #5E2064   @color-white #ffffff  @color-gray-light #f2f2f2  @color-gray-medium #d6d6d6  @color-gray-dark #667780  @color-gray-darker #002133  @color-black #000000      </description>
     </item>
     
     <item>
@@ -139,6 +140,18 @@ Bad This has a weight of 1 ID, 1 class, and 1 element which will require an equa
       
       <guid>http://example.org/guidelines/accessibility/</guid>
       <description> &amp;quot;Accessibility&amp;quot;     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/guidelines/css-best-practices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/guidelines/css-best-practices/</guid>
+      <description>&amp;quot;CSS Best Practices&amp;quot;   Theming Theming is a way to use variables to reduce repetition and improve quality of life. A list of color variables for example, can be used as values for other semantic variables.
+Example In variables.less we have this:
+@color-blue-primary: #006298; @color-white: #ffffff; @button-primary-bg: @color-blue-primary; @button-primary-text: @color-white;  In practice, we would use it like this:
+.button_primary { background-color: @button-primary-bg; color: @button-primary-text; }  Which allows us to simply change the value of @button-primary-bg when the theme requires a different color instead of finding all the places @color-blue-primary is used.</description>
     </item>
     
     <item>

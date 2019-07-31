@@ -23,11 +23,11 @@
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/design-principles/</loc>
+    <loc>http://example.org/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/css-best-practices/</loc>
+    <loc>http://example.org/guidelines/design-principles/</loc>
   </url>
   
   <url>
@@ -52,6 +52,10 @@
   
   <url>
     <loc>http://example.org/guidelines/accessibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
