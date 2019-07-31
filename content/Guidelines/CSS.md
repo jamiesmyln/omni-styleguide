@@ -5,6 +5,7 @@ menu:
     parent: guidelines
 weight: 51
 ---
+
 We follow a slightly modified version of [airbnb's style guide.](https://github.com/airbnb/css)
 
 ## Only Use Classes

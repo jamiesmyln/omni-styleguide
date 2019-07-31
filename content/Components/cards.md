@@ -9,6 +9,7 @@ Cards are a way to visually separate content, must always be on the Light Gray b
 
 ---
 
+
 ## Vertical Card
 <div class="card card_vertical-image">
   <div class="image-container"></div>

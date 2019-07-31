@@ -5,6 +5,7 @@ menu:
     parent: components
 weight: 15
 ---
+
 Buttons are used for actions a user can take on a page. Their visual design is intended to make them stand out against content to make it more apparent what actions are available to a user.
 
 _We do not disable buttons._ Disabled buttons present accessibility issues and can confuse users as to how to enable them. So instead, we allow users to press any button and show a message if something must be done before that action can be taken.
