@@ -3,100 +3,100 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/components/buttons/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/buttons/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/components/cards/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/cards/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/elements/colors/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/accessibility/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/css/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/css-best-practices/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/design-principles/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/ux-resources/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/components/buttons/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/buttons/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/components/cards/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/cards/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/elements/colors/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/css/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/accessibility/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/accessibility/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/css-best-practices/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/design-principles/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/design-principles/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/ux-resources/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/ux-resources/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/home/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/home/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/components/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/components/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/elements/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/guidelines/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/guidelines/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/tags/</loc>
     <priority>0</priority>
   </url>
   

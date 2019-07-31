@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://omni-styleguide.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
-title = "Calypso"
+title = "Omni Design System"
 theme = "hugo-just-docs-theme"
 MetaDataFormat = "yaml"
 version = "1.0.0-SNAPSHOT"
