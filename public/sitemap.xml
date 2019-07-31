@@ -3,100 +3,100 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/components/buttons/</loc>
+    <loc>/components/buttons/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/components/cards/</loc>
+    <loc>/components/cards/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/elements/colors/</loc>
+    <loc>/elements/colors/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/accessibility/</loc>
+    <loc>/guidelines/accessibility/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/css/</loc>
+    <loc>/guidelines/css/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/css-best-practices/</loc>
+    <loc>/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/design-principles/</loc>
+    <loc>/guidelines/design-principles/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/ux-resources/</loc>
+    <loc>/guidelines/ux-resources/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/components/buttons/</loc>
+    <loc>/components/buttons/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/components/cards/</loc>
+    <loc>/components/cards/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/elements/colors/</loc>
+    <loc>/elements/colors/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/css/</loc>
+    <loc>/guidelines/css/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/accessibility/</loc>
+    <loc>/guidelines/accessibility/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/css-best-practices/</loc>
+    <loc>/guidelines/css-best-practices/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/design-principles/</loc>
+    <loc>/guidelines/design-principles/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/ux-resources/</loc>
+    <loc>/guidelines/ux-resources/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/components/</loc>
+    <loc>/components/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/elements/</loc>
+    <loc>/elements/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/guidelines/</loc>
+    <loc>/guidelines/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/home/</loc>
+    <loc>/home/</loc>
   </url>
   
   <url>
-    <loc>omni-styleguide/gale-styles/public/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

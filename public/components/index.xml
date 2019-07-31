@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Components on Omni Style Guide</title>
-    <link>omni-styleguide/gale-styles/public/components/</link>
+    <link>/components/</link>
     <description>Recent content in Components on Omni Style Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="omni-styleguide/gale-styles/public/components/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/components/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Buttons</title>
-      <link>omni-styleguide/gale-styles/public/components/buttons/</link>
+      <link>/components/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>omni-styleguide/gale-styles/public/components/buttons/</guid>
+      <guid>/components/buttons/</guid>
       <description>Buttons are used for actions a user can take on a page. Their visual design is intended to make them stand out against content to make it more apparent what actions are available to a user.
 We do not disable buttons. Disabled buttons present accessibility issues and can confuse users as to how to enable them. So instead, we allow users to press any button and show a message if something must be done before that action can be taken.</description>
     </item>
     
     <item>
       <title>Cards</title>
-      <link>omni-styleguide/gale-styles/public/components/cards/</link>
+      <link>/components/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>omni-styleguide/gale-styles/public/components/cards/</guid>
+      <guid>/components/cards/</guid>
       <description>Cards are a way to visually separate content, must always be on the Light Gray background @color-gray-light, and must always be accompanied by other cards (never use a single card alone.)
 Vertical Card  Category Header Article Title Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.    &amp;lt;div class=&amp;quot;card card_vertical-image&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;image-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;card-content&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;category-header&amp;quot;&amp;gt;Category Header&amp;lt;/div&amp;gt; &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;article-title&amp;quot;&amp;gt;Article Title&amp;lt;/a&amp;gt; &amp;lt;div class=&amp;quot;snippet-text&amp;quot;&amp;gt; .</description>
     </item>
     
     <item>
       <title></title>
-      <link>omni-styleguide/gale-styles/public/components/buttons/</link>
+      <link>/components/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>omni-styleguide/gale-styles/public/components/buttons/</guid>
+      <guid>/components/buttons/</guid>
       <description>&amp;quot;Buttons&amp;quot;   Buttons are used for actions a user can take on a page. Their visual design is intended to make them stand out against content to make it more apparent what actions are available to a user.
 We do not disable buttons. Disabled buttons present accessibility issues and can confuse users as to how to enable them. So instead, we allow users to press any button and show a message if something must be done before that action can be taken.</description>
     </item>
     
     <item>
       <title></title>
-      <link>omni-styleguide/gale-styles/public/components/cards/</link>
+      <link>/components/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>omni-styleguide/gale-styles/public/components/cards/</guid>
+      <guid>/components/cards/</guid>
       <description>&amp;quot;Cards&amp;quot;   Cards are a way to visually separate content, must always be on the Light Gray background @color-gray-light, and must always be accompanied by other cards (never use a single card alone.)
  Vertical Card  Category Header Article Title Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt deserunt facilis quod dignissimos exercitationem, modi, ratione quidem quis, rem voluptas inventore optio repellat similique incidunt! Illo non dolores quis.</description>
     </item>
