@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "omni-styleguide/gale-styles/public"
 languageCode = "en-us"
 title = "Omni Style Guide"
 theme = "hugo-just-docs-theme"
