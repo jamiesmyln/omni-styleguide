@@ -1,4 +1,4 @@
-baseURL = "http://omni-styleguide.s3-website-us-east-1.amazonaws.com"
+baseURL = ""
 languageCode = "en-us"
 title = "Omni Style Guide"
 theme = "hugo-just-docs-theme"
