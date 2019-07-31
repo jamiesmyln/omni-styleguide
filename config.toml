@@ -1,4 +1,4 @@
-baseURL = "https://s3.amazonaws.com/omni-styleguide/"
+baseURL = "http://omni-styleguide.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Omni Design System"
 theme = "hugo-just-docs-theme"
