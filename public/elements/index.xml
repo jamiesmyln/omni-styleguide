@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Elements on Omni Styleguide</title>
-    <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/</link>
-    <description>Recent content in Elements on Omni Styleguide</description>
+    <title>Elements on Omni Style Guide</title>
+    <link>/elements/</link>
+    <description>Recent content in Elements on Omni Style Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/elements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Colors</title>
-      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</link>
+      <link>/elements/colors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</guid>
+      <guid>/elements/colors/</guid>
       <description>@color-blue-primary #006298  @color-orange #D24204   @color-blue-dark #003865  @color-blue-light #6ECEF6  @color-green #78A12B  @color-teal #00857C  @color-purple #5E2064   @color-white #ffffff  @color-gray-light #f2f2f2  @color-gray-medium #d6d6d6  @color-gray-dark #667780  @color-gray-darker #002133  @color-black #000000    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</link>
+      <link>/elements/colors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://omni-styleguide.s3-website-us-east-1.amazonaws.com/elements/colors/</guid>
+      <guid>/elements/colors/</guid>
       <description> &amp;quot;Colors&amp;quot;   @color-blue-primary #006298  @color-orange #D24204   @color-blue-dark #003865  @color-blue-light #6ECEF6  @color-green #78A12B  @color-teal #00857C  @color-purple #5E2064   @color-white #ffffff  @color-gray-light #f2f2f2  @color-gray-medium #d6d6d6  @color-gray-dark #667780  @color-gray-darker #002133  @color-black #000000      </description>
     </item>
     

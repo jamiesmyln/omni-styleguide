@@ -1,6 +1,6 @@
 ---
-title:  "About Omni Styleguide"
+title:  "Omni Style Guide"
 ---
 
 ## Gale's Design System
-We have one! Hoorayyyy
+Guidelines and stuff
